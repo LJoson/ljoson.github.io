@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git使用笔记文档 | GLIMMER小作坊的工具人</title>
+    <meta name="description" content="时间太瘦，指尖太宽，且行且珍惜">
+    <meta name="generator" content="VuePress 1.4.0">
+    <link rel="icon" href="/vuepress/image.png">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+  <script language="javascript" type="text/javascript" src="https://cdn.staticfile.org/jquery/1.7.2/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="/js/MouseClickEffect.js"></script>
+    
+    <link rel="preload" href="/assets/css/0.styles.41d6f5eb.css" as="style"><link rel="preload" href="/assets/js/app.49083b88.js" as="script"><link rel="preload" href="/assets/js/5.1e50d71f.js" as="script"><link rel="preload" href="/assets/js/1.99bf47a0.js" as="script"><link rel="preload" href="/assets/js/2.2b407c75.js" as="script"><link rel="preload" href="/assets/js/122.02bbd18c.js" as="script"><link rel="preload" href="/assets/js/20.d4ee0efb.js" as="script"><link rel="prefetch" href="/assets/js/10.4d62ce43.js"><link rel="prefetch" href="/assets/js/100.a21e38f4.js"><link rel="prefetch" href="/assets/js/101.6bd0e070.js"><link rel="prefetch" href="/assets/js/102.18112286.js"><link rel="prefetch" href="/assets/js/103.55c3fa7f.js"><link rel="prefetch" href="/assets/js/104.09487a09.js"><link rel="prefetch" href="/assets/js/105.705c42fb.js"><link rel="prefetch" href="/assets/js/106.04f36aba.js"><link rel="prefetch" href="/assets/js/107.90369584.js"><link rel="prefetch" href="/assets/js/108.1810d497.js"><link rel="prefetch" href="/assets/js/109.99149e5d.js"><link rel="prefetch" href="/assets/js/11.875fc3e6.js"><link rel="prefetch" href="/assets/js/110.51e13d39.js"><link rel="prefetch" href="/assets/js/111.cc3f511d.js"><link rel="prefetch" href="/assets/js/112.4f7fa3a1.js"><link rel="prefetch" href="/assets/js/113.605b3316.js"><link rel="prefetch" href="/assets/js/114.271af660.js"><link rel="prefetch" href="/assets/js/115.c844bcb5.js"><link rel="prefetch" href="/assets/js/116.6057fccd.js"><link rel="prefetch" href="/assets/js/117.d9c5693e.js"><link rel="prefetch" href="/assets/js/118.b488827e.js"><link rel="prefetch" href="/assets/js/119.7a8cd137.js"><link rel="prefetch" href="/assets/js/12.b4d2682c.js"><link rel="prefetch" href="/assets/js/120.7091c6ab.js"><link rel="prefetch" href="/assets/js/121.df8d11ff.js"><link rel="prefetch" href="/assets/js/123.ed27d711.js"><link rel="prefetch" href="/assets/js/124.c794a422.js"><link rel="prefetch" href="/assets/js/125.79465692.js"><link rel="prefetch" href="/assets/js/126.d1e98e85.js"><link rel="prefetch" href="/assets/js/127.6b9d1dc0.js"><link rel="prefetch" href="/assets/js/128.3cbd3d27.js"><link rel="prefetch" href="/assets/js/129.78ec29aa.js"><link rel="prefetch" href="/assets/js/13.4cdaf2d2.js"><link rel="prefetch" href="/assets/js/130.2bcc867d.js"><link rel="prefetch" href="/assets/js/131.dd5392b9.js"><link rel="prefetch" href="/assets/js/132.b05a476f.js"><link rel="prefetch" href="/assets/js/133.f1c1d872.js"><link rel="prefetch" href="/assets/js/14.4c994e20.js"><link rel="prefetch" href="/assets/js/15.8b0d8e8a.js"><link rel="prefetch" href="/assets/js/16.f6bd4cd1.js"><link rel="prefetch" href="/assets/js/17.0f41de74.js"><link rel="prefetch" href="/assets/js/18.e94bcad2.js"><link rel="prefetch" href="/assets/js/19.e8a30c63.js"><link rel="prefetch" href="/assets/js/21.74d78f18.js"><link rel="prefetch" href="/assets/js/22.6710509a.js"><link rel="prefetch" href="/assets/js/23.18d620a1.js"><link rel="prefetch" href="/assets/js/24.81075dfa.js"><link rel="prefetch" href="/assets/js/25.6ea440a6.js"><link rel="prefetch" href="/assets/js/26.ccdd9dad.js"><link rel="prefetch" href="/assets/js/27.079c0040.js"><link rel="prefetch" href="/assets/js/28.c31129f2.js"><link rel="prefetch" href="/assets/js/29.b848c837.js"><link rel="prefetch" href="/assets/js/30.89c99e89.js"><link rel="prefetch" href="/assets/js/31.34e143c0.js"><link rel="prefetch" href="/assets/js/32.c6e080bc.js"><link rel="prefetch" href="/assets/js/33.5b3ec9cf.js"><link rel="prefetch" href="/assets/js/34.4343bfb6.js"><link rel="prefetch" href="/assets/js/35.ec001e11.js"><link rel="prefetch" href="/assets/js/36.299fb4f9.js"><link rel="prefetch" href="/assets/js/37.c7389b7c.js"><link rel="prefetch" href="/assets/js/38.14e9f998.js"><link rel="prefetch" href="/assets/js/39.ac244cf5.js"><link rel="prefetch" href="/assets/js/40.6d1861c1.js"><link rel="prefetch" href="/assets/js/41.9468a731.js"><link rel="prefetch" href="/assets/js/42.3a494f7f.js"><link rel="prefetch" href="/assets/js/43.da377ed9.js"><link rel="prefetch" href="/assets/js/44.f9b8f675.js"><link rel="prefetch" href="/assets/js/45.939ae9b6.js"><link rel="prefetch" href="/assets/js/46.e39d1543.js"><link rel="prefetch" href="/assets/js/47.f478559d.js"><link rel="prefetch" href="/assets/js/48.581fcbe3.js"><link rel="prefetch" href="/assets/js/49.349f2b2d.js"><link rel="prefetch" href="/assets/js/50.64f3775e.js"><link rel="prefetch" href="/assets/js/51.f2afcf4e.js"><link rel="prefetch" href="/assets/js/52.64e0762d.js"><link rel="prefetch" href="/assets/js/53.c1034999.js"><link rel="prefetch" href="/assets/js/54.0aa9fca3.js"><link rel="prefetch" href="/assets/js/55.8d494529.js"><link rel="prefetch" href="/assets/js/56.68467c67.js"><link rel="prefetch" href="/assets/js/57.797b3cb5.js"><link rel="prefetch" href="/assets/js/58.9f846d99.js"><link rel="prefetch" href="/assets/js/59.51128194.js"><link rel="prefetch" href="/assets/js/6.289b09d9.js"><link rel="prefetch" href="/assets/js/60.742c340c.js"><link rel="prefetch" href="/assets/js/61.f7204d8f.js"><link rel="prefetch" href="/assets/js/62.080a5344.js"><link rel="prefetch" href="/assets/js/63.99906644.js"><link rel="prefetch" href="/assets/js/64.4408c44b.js"><link rel="prefetch" href="/assets/js/65.187f85e2.js"><link rel="prefetch" href="/assets/js/66.0606d0a6.js"><link rel="prefetch" href="/assets/js/67.cf5024f4.js"><link rel="prefetch" href="/assets/js/68.41ccaffa.js"><link rel="prefetch" href="/assets/js/69.07c29b82.js"><link rel="prefetch" href="/assets/js/7.6f9fcd49.js"><link rel="prefetch" href="/assets/js/70.8480b58d.js"><link rel="prefetch" href="/assets/js/71.9b8ee716.js"><link rel="prefetch" href="/assets/js/72.faa30c12.js"><link rel="prefetch" href="/assets/js/73.185c7075.js"><link rel="prefetch" href="/assets/js/74.11102f97.js"><link rel="prefetch" href="/assets/js/75.51c5c30d.js"><link rel="prefetch" href="/assets/js/76.551e2a22.js"><link rel="prefetch" href="/assets/js/77.c3d998c8.js"><link rel="prefetch" href="/assets/js/78.7468d053.js"><link rel="prefetch" href="/assets/js/79.39b02bbf.js"><link rel="prefetch" href="/assets/js/8.6a9db5f6.js"><link rel="prefetch" href="/assets/js/80.40101caa.js"><link rel="prefetch" href="/assets/js/81.3072a0b9.js"><link rel="prefetch" href="/assets/js/82.b0d04f22.js"><link rel="prefetch" href="/assets/js/83.49f9b09a.js"><link rel="prefetch" href="/assets/js/84.a4e66c57.js"><link rel="prefetch" href="/assets/js/85.8d32d7be.js"><link rel="prefetch" href="/assets/js/86.e37f8b4d.js"><link rel="prefetch" href="/assets/js/87.a608dcd0.js"><link rel="prefetch" href="/assets/js/88.b83b20f7.js"><link rel="prefetch" href="/assets/js/89.e96ecd44.js"><link rel="prefetch" href="/assets/js/9.b1be5bd5.js"><link rel="prefetch" href="/assets/js/90.3ddd64a9.js"><link rel="prefetch" href="/assets/js/91.a3327b97.js"><link rel="prefetch" href="/assets/js/92.5033bfaa.js"><link rel="prefetch" href="/assets/js/93.b8810822.js"><link rel="prefetch" href="/assets/js/94.351a73e2.js"><link rel="prefetch" href="/assets/js/95.f4370f43.js"><link rel="prefetch" href="/assets/js/96.958e40d1.js"><link rel="prefetch" href="/assets/js/97.659592f8.js"><link rel="prefetch" href="/assets/js/98.ed2faa63.js"><link rel="prefetch" href="/assets/js/99.4819a778.js"><link rel="prefetch" href="/assets/js/vendors~flowchart.f4a117dd.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.41d6f5eb.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container" data-v-4d80cb8a><div data-v-4d80cb8a><div id="loader-wrapper" class="loading-wrapper" data-v-4b73742e data-v-4d80cb8a data-v-4d80cb8a><div class="loader-main" data-v-4b73742e><div data-v-4b73742e></div><div data-v-4b73742e></div><div data-v-4b73742e></div><div data-v-4b73742e></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-0b619cf4 data-v-4d80cb8a data-v-4d80cb8a><h3 class="title" style="display:none;" data-v-0b619cf4 data-v-0b619cf4>GLIMMER小作坊的工具人</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-0b619cf4 data-v-0b619cf4><input type="password" value="" data-v-0b619cf4> <span data-v-0b619cf4>Konck! Knock!</span> <button data-v-0b619cf4>OK</button></label> <div class="footer" style="display:none;" data-v-0b619cf4 data-v-0b619cf4><span data-v-0b619cf4><i class="iconfont reco-theme" data-v-0b619cf4></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-0b619cf4>vuePress-theme-reco</a></span> <span data-v-0b619cf4><i class="iconfont reco-copyright" data-v-0b619cf4></i> <a data-v-0b619cf4><span data-v-0b619cf4>LJoson</span>
+            
+          <span data-v-0b619cf4>2020 - </span>
+          2025
+        </a></span></div></div> <div class="hide" data-v-4d80cb8a><header class="navbar" data-v-4d80cb8a><div title="导航" class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">GLIMMER小作坊的工具人</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/index.html" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/AI及机器人等/" class="nav-link"><i class="iconfont undefined"></i>
+  AI及机器人等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/算法等/" class="nav-link"><i class="iconfont undefined"></i>
+  算法等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/计算机技术等/" class="nav-link"><i class="iconfont undefined"></i>
+  计算机技术等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/电子设计等/" class="nav-link"><i class="iconfont undefined"></i>
+  电子设计等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/杂谈/" class="nav-link"><i class="iconfont undefined"></i>
+  杂谈
+</a></li><li class="dropdown-item"><!----> <a href="/categories/游戏设计等/" class="nav-link"><i class="iconfont undefined"></i>
+  游戏设计等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/笔记等/" class="nav-link"><i class="iconfont undefined"></i>
+  笔记等
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      我的
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Projects🎈</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/projects/github.html" class="nav-link"><i class="iconfont undefined"></i>
+  Project on github
+</a></li></ul></li><li class="dropdown-item"><h4>Station🎈</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://github.com/LJoson" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://blog.csdn.net/qq_43743037" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/timeLine/index.html" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><a href="https://ljoson.github.io/arXiv_daily" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-document"></i>
+  每日论文摘要
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/about/aboutme.html" class="nav-link"><i class="iconfont reco-message"></i>
+  关于坊主
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-4d80cb8a></div> <aside class="sidebar" data-v-4d80cb8a><div class="personal-info-wrapper" data-v-79645776><img src="/vuepress/Headimage.jpg" alt="author-avatar" class="personal-img" data-v-79645776> <h3 class="name" data-v-79645776>
+    LJoson
+  </h3> <div class="num" data-v-79645776><div data-v-79645776><h3 data-v-79645776>102</h3> <h6 data-v-79645776>文章</h6></div> <div data-v-79645776><h3 data-v-79645776>47</h3> <h6 data-v-79645776>标签</h6></div></div> <hr data-v-79645776></div> <nav class="nav-links"><div class="nav-item"><a href="/index.html" class="nav-link"><i class="iconfont reco-home"></i>
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/AI及机器人等/" class="nav-link"><i class="iconfont undefined"></i>
+  AI及机器人等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/算法等/" class="nav-link"><i class="iconfont undefined"></i>
+  算法等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/计算机技术等/" class="nav-link"><i class="iconfont undefined"></i>
+  计算机技术等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/电子设计等/" class="nav-link"><i class="iconfont undefined"></i>
+  电子设计等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/杂谈/" class="nav-link"><i class="iconfont undefined"></i>
+  杂谈
+</a></li><li class="dropdown-item"><!----> <a href="/categories/游戏设计等/" class="nav-link"><i class="iconfont undefined"></i>
+  游戏设计等
+</a></li><li class="dropdown-item"><!----> <a href="/categories/笔记等/" class="nav-link"><i class="iconfont undefined"></i>
+  笔记等
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-document"></i>
+      我的
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>Projects🎈</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/projects/github.html" class="nav-link"><i class="iconfont undefined"></i>
+  Project on github
+</a></li></ul></li><li class="dropdown-item"><h4>Station🎈</h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="https://github.com/LJoson" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-subitem"><a href="https://blog.csdn.net/qq_43743037" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont undefined"></i>
+  CSDN
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li></ul></li></ul></div></div><div class="nav-item"><a href="/timeLine/index.html" class="nav-link"><i class="iconfont reco-date"></i>
+  时间线
+</a></div><div class="nav-item"><a href="https://ljoson.github.io/arXiv_daily" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-document"></i>
+  每日论文摘要
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="/about/aboutme.html" class="nav-link"><i class="iconfont reco-message"></i>
+  关于坊主
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/views/" class="sidebar-link">概览</a></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>AI及机器人等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>算法等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>计算机技术等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>硬件及运动控制等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>杂谈</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>小游戏设计等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>笔记等</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/notes/Googlebug.html" class="sidebar-link">Google搜索错误&quot;隐私设置错误,您的连接不是私密连接&quot;解决</a></li><li><a href="/views/notes/Pythonbug.html" class="sidebar-link">Python错误及解决集合</a></li><li><a href="/views/notes/aibug00.html" class="sidebar-link">框架错误及解决集合</a></li><li><a href="/views/notes/linuxbug00.html" class="sidebar-link">那些年，在Ubuntu18下踩过的坑</a></li><li><a href="/views/notes/git.html" class="active sidebar-link">Git使用笔记文档</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/notes/git.html#挂代理" class="sidebar-link">挂代理</a></li><li class="sidebar-sub-header"><a href="/views/notes/git.html#pr小知识" class="sidebar-link">pr小知识</a></li><li class="sidebar-sub-header"><a href="/views/notes/git.html#解决-git-更新本地冲突：commit-your-changes-or-stash-them-before-you-can-merge" class="sidebar-link">解决 Git 更新本地冲突：commit your changes or stash them before you can merge</a></li><li class="sidebar-sub-header"><a href="/views/notes/git.html#详解-git-大文件存储（git-lfs）" class="sidebar-link">详解 Git 大文件存储（Git LFS）</a></li><li class="sidebar-sub-header"><a href="/views/notes/git.html#git-pull-强制覆盖本地的代码方式，下面是正确的方法：" class="sidebar-link">git pull 强制覆盖本地的代码方式，下面是正确的方法：</a></li><li class="sidebar-sub-header"><a href="/views/notes/git.html#git-clone-显示详细log和进度" class="sidebar-link">git clone 显示详细log和进度</a></li><li class="sidebar-sub-header"><a href="/views/notes/git.html#gitignore文件的配置使用" class="sidebar-link">.gitignore文件的配置使用</a></li></ul></li><li><a href="/views/notes/oamnote.html" class="sidebar-link">运维错误及解决笔记</a></li><li><a href="/views/notes/vim.html" class="sidebar-link">Vim的使用</a></li><li><a href="/views/notes/Edge.html" class="sidebar-link">关于新版edge浏览器的一个小坑</a></li><li><a href="/views/notes/markdown.html" class="sidebar-link">markown使用笔记文档</a></li><li><a href="/views/notes/pypi.html" class="sidebar-link">构建 PyPi 服务</a></li><li><a href="/views/notes/linux.html" class="sidebar-link">Linux日常小记</a></li><li><a href="/views/notes/opencvbug.html" class="sidebar-link">opencv错误及解决集合</a></li><li><a href="/views/notes/pycocotools.html" class="sidebar-link">Win10下无痛安装pycocotools</a></li><li><a href="/views/notes/webbug.html" class="sidebar-link">web错误及解决集合</a></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-0b619cf4 data-v-4d80cb8a><h3 class="title" style="display:none;" data-v-0b619cf4 data-v-0b619cf4>Git使用笔记文档</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-0b619cf4 data-v-0b619cf4><input type="password" value="" data-v-0b619cf4> <span data-v-0b619cf4>Konck! Knock!</span> <button data-v-0b619cf4>OK</button></label> <div class="footer" style="display:none;" data-v-0b619cf4 data-v-0b619cf4><span data-v-0b619cf4><i class="iconfont reco-theme" data-v-0b619cf4></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-0b619cf4>vuePress-theme-reco</a></span> <span data-v-0b619cf4><i class="iconfont reco-copyright" data-v-0b619cf4></i> <a data-v-0b619cf4><span data-v-0b619cf4>LJoson</span>
+            
+          <span data-v-0b619cf4>2020 - </span>
+          2025
+        </a></span></div></div> <div data-v-4d80cb8a><main class="page"><!----> <div class="page-title" style="display:none;"><h1>Git使用笔记文档</h1> <hr> <div data-v-09556aba><i class="iconfont reco-account" data-v-09556aba><span data-v-09556aba>LJoson</span></i> <i class="iconfont reco-date" data-v-09556aba><span data-v-09556aba>2021-01-28 17:30:12</span></i> <i class="iconfont reco-eye" data-v-09556aba><span id="/views/notes/git.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-09556aba><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-09556aba><span class="tag-item" data-v-09556aba>
+      文档笔记
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><ul><li>《git教程》 remote set-url origin git@github.com:“仓库地址”</li></ul> <p>git config --global user.name “git用户名”</p> <p>git config –global user.email “git用户邮箱”</p> <p>ssh -T git@github.com</p> <p>2、创建本地库</p> <p>mkidir learngit //自定义文件夹
+cd learngit</p> <p>touch test.md //创建test.md文件
+pwd //显示当前目录</p> <p>3、常用CRT</p> <p>git init //初始化代码仓库
+git add learngit.txt     //-A:参数把所有要提交的文件修改放到暂存区
+git commit -m 'add a file'                      //把暂存区的所有内容提交到当前分支
+git status                                            //查看工作区状态
+git diff                                                //查看文件修改内容
+git log                                                //查看提交历史
+git log --pretty=oneline                       //单行显示
+git reset --hard HEAD^　　　　　　　　 //回退到上一个版本，其中（HEAD^^(上上版本),HEAD~100(往上100个版本)）</p> <p>commit id                                          //(版本号) 可回到指定版本
+git reflog                                           //查看历史命令</p> <p>其中说明(
+工作区（Working Directory）
+版本库（Repository） #.git
+stage(index) 暂存区
+main Git自动创建的分支
+HEAD 指针</p> <p>git diff HEAD -- <file>                                  //查看工作区和版本库里最新版本的区别
+git checkout -- <file>                                   //用版本库的版本替换工作区的版本，无论是工作区的修改还是删除，都可以'一键还原'
+git reset HEAD <file>                                   //把暂存区的修改撤销掉，重新放回工作区。
+git rm <file>                                               //删除文件，若文件已提交到版本库，不用担心误删，但是只能恢复文件到最新版本</file></file></file></file></p> <p>4、创建SSH Key，建立本地Git仓库和GitHub仓库之间的传输的秘钥</p> <p>ssh-keygen -t rsa -C '1250377062@qq.com'                                                    //创建SSH Key
+git remote add origin git@github.com:username/repostery.git                  //关联本地仓库，远程库的名字为origin</p> <p>//第一次把当前分支main推送到远程，-u参数不但推送，而且将本地的分支和远程的分支关联起来
+git push -u origin main
+git push origin main                                                                //把当前分支main推送到远程
+git clone git@github.com:username/repostery.git                            //从远程库克隆一个到本地库</p> <p>5、分支
+git checkout -b dev                                   //创建并切换分支
+#相当于git branch dev 和git checkout dev
+git branch                                            //查看当前分支，当前分支前有个*号
+git branch <name>                                   //创建分支
+git checkout <name>                                //切换分支
+git merge <name>                                   //合并某个分支到当前分支
+git branch -d <name>                               //删除分支
+git log --graph                                   //查看分支合并图
+git merge --no-ff -m 'message' dev                //禁用Fast forward合并dev分支</name></name></name></name></p> <p>git stash                                                 //隐藏当前工作现场，等恢复后继续工作
+git stash list                                            //查看stash记录
+git stash apply                                         //仅恢复现场，不删除stash内容
+git stash drop                                          //删除stash内容
+git stash pop                                           //恢复现场的同时删除stash内容
+git branch -D <name>                              //强行删除某个未合并的分支</name></p> <p>//开发新feature最好新建一个分支
+git remote                                               //查看远程仓库
+git remote -v                                           //查看远程库详细信息</p> <p>git pull                                                   //抓取远程提交
+git checkout -b branch-name origin/branch-name                  //在本地创建和远程分支对应的分支
+git branch --set-upstream branch-name origin/branch-name   //建立本地分支和远程分支的关联</p> <p>6、其他---标签/release
+git tag v1.0                                                                      //给当前分支最新的commit打标签
+git tag -a v0.1 -m 'version 0.1 released' 3628164                 //-a指定标签名，-m指定说明文字
+git tag -s <tagname> -m 'blabla'                                        //可以用PGP签名标签
+git tag                                                                             //查看所有标签
+git show v1.0                                                                   //查看标签信息
+git tag -d v0.1                                                                 //删除标签
+git push origin <tagname>                                               //推送某个标签到远程
+git push origin --tags                                                       //推送所有尚未推送的本地标签</tagname></tagname></p> <p>git remote -v // 查看当前远程分支
+git fetch origin main // 获取远端的origin/main分支
+git log -p main..origin/main // 查看本地main和远端origin/main的版本差异
+git merge origin/main // 合并远端origin/main分支到当前本地分支</p> <p>7.Git submodule 子模块的管理和使用</p> <p>添加子模块
+此文中统一将远程项目https://github.com/maonx/vimwiki-assets.git克隆到本地assets文件夹。</p> <p>$ git submodule add https://github.com/maonx/vimwiki-assets.git assets
+添加子模块后运行git status, 可以看到目录有增加1个文件.gitmodules, 这个文件用来保存子模块的信息。</p> <p>$ git status
+On branch master</p> <p>Initial commit</p> <p>Changes to be committed:
+(use &quot;git rm --cached <file>...&quot; to unstage)</file></p> <div class="language- extra-class"><pre><code>new file:   .gitmodules
+new file:   assets
+</code></pre></div><p>查看子模块
+$ git submodule
+e33f854d3f51f5ebd771a68da05ad0371a3c0570 assets (heads/master)
+更新子模块
+更新项目内子模块到最新版本
+$ git submodule update
+更新子模块为远程项目的最新版本
+$ git submodule update --remote
+克隆包含子模块的项目
+克隆包含子模块的项目有二种方法：一种是先克隆父项目，再更新子模块；另一种是直接递归克隆整个项目。</p> <p>克隆父项目，再更新子模块
+克隆父项目
+$ git clone https://github.com/maonx/vimwiki-assets.git assets
+查看子模块
+$ git submodule
+-e33f854d3f51f5ebd771a68da05ad0371a3c0570 assets
+子模块前面有一个-，说明子模块文件还未检入（空文件夹）。</p> <p>初始化子模块
+$ git submodule init
+Submodule 'assets' (https://github.com/maonx/vimwiki-assets.git) registered for path 'assets'
+初始化模块只需在克隆父项目后运行一次。</p> <p>更新子模块
+$ git submodule update
+Cloning into 'assets'...
+remote: Counting objects: 151, done.
+remote: Compressing objects: 100% (80/80), done.
+remote: Total 151 (delta 18), reused 0 (delta 0), pack-reused 70
+Receiving objects: 100% (151/151), 1.34 MiB | 569.00 KiB/s, done.
+Resolving deltas: 100% (36/36), done.
+Checking connectivity... done.
+Submodule path 'assets': checked out 'e33f854d3f51f5ebd771a68da05ad0371a3c0570'
+递归克隆整个项目
+git clone https://github.com/maonx/vimwiki-assets.git assets --recursive
+递归克隆整个项目，子模块已经同时更新了，一步到位。</p> <p>修改子模块
+在子模块中修改文件后，直接提交到远程项目分支。</p> <p>$ git add .
+$ git ci -m &quot;commit&quot;
+$ git push origin HEAD:master
+删除子模块
+删除子模块比较麻烦，需要手动删除相关的文件，否则在添加子模块时有可能出现错误
+同样以删除assets文件夹为例</p> <p>删除子模块文件夹
+$ git rm --cached assets
+$ rm -rf assets
+删除.gitmodules文件中相关子模块信息
+[submodule &quot;assets&quot;]
+path = assets
+url = https://github.com/maonx/vimwiki-assets.git
+删除.git/config中的相关子模块信息
+[submodule &quot;assets&quot;]
+url = https://github.com/maonx/vimwiki-assets.git
+删除.git文件夹中的相关子模块文件</p> <p>$ rm -rf .git/modules/assets</p> <ul><li>如果首次克隆仓库及其模块，使用：</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>git clone --recursive 仓库地址
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>对于仓库首次拉取模块，可以使用：</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>git submodule update --init --recursive
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>更新单个子模块xxx</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>git submodule update --init xxx
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><ul><li>更新子模块：</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code># 适用于git 1.8.2及以上版本
+git submodule update --recursive --remote
+
+# 适用于git 1.7.3及以上版本
+git submodule update --recursive
+#或者
+git pull --recurse-submodules
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>GitHub改host加速：</p> <p><img src="https://gitee.com/Lj_Evan/images/raw/master/git/20210608225024.png" alt="1"></p> <p>win10下密钥地址一般在：</p> <p><img src="https://gitee.com/Lj_Evan/images/raw/master/git/20210608225037.png" alt="2"></p> <p>YAMLException: can not read a block mapping entry; a multiline key may not be an implicit key</p> <p><a href="https://chrischen0405.github.io/2018/11/21/post20181121-2/" target="_blank" rel="noopener noreferrer">https://chrischen0405.github.io/2018/11/21/post20181121-2/<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <p>gnutls_handshake() failed: The TLS connection was non-properly terminated
+https://blog.csdn.net/songtianlun/article/details/115611734</p> <h3 id="git更新远程仓库代码到本地"><a href="#git更新远程仓库代码到本地" class="header-anchor">#</a> Git更新远程仓库代码到本地</h3> <p>当我们在多台电脑上开发一个项目的时候，需要经常修改提交内容并在另一台电脑上更新远程最新的代码，今天看了一下如何从远程代码仓库获取更新到本地，总结了一下网上的文章，采用如下的方式比较简单。</p> <p>当我们在多台电脑上或者多人共同开发一个项目的时候，远程仓库会不时地被修改，而自己也在不断修改自己的本地仓库，因此仓库的远程版本与本地版本势必会导致不一致。比如A同学基于版本1修改了远程仓库并提交了，形成了版本2；B同学的本地仓库是基于版本1的，并对版本1做了自己的修改，当B同学更新本地仓库的时候会自动地将本地仓库与远端版本2仓库合并，这个合并被期望能够保护B同学基于版本1进行的一些修改。
+这里说明这种情况下，Git的处理机制以及我们保护本地基于旧版本仓库修改的内容的的应对措施。</p> <p>方法一
+查看远程分支
+使用如下命令可以查看远程仓库（我这里有一个origin仓库）</p> <p>$ git remote -v</p> <p>从远程获取最新版本到本地
+使用如下命令可以在本地新建一个temp分支，并将远程origin仓库的master分支代码下载到本地temp分支</p> <p>$ git fetch origin master:temp</p> <p>比较本地仓库与下载的temp分支
+使用如下命令来比较本地代码与刚刚从远程下载下来的代码的区别：</p> <p>$ git diff temp</p> <p>合并temp分支到本地的master分支
+对比区别之后，如果觉得没有问题，可以使用如下命令进行代码合并：</p> <p>$ git merge temp</p> <p>删除temp分支
+如果temp分支不想要保留，可以使用如下命令删除该分支：</p> <p>$ git branch -d temp</p> <p>如果该分支的代码之前没有merge到本地，那么删除该分支会报错，可以使用git branch -D temp强制删除该分支。</p> <p>方法二
+git pull的作用是，从远程库中获取某个分支的更新，再与本地指定的分支进行自动merge。完整格式是：</p> <p>$ git pull &lt;远程库名&gt; &lt;远程分支名&gt;:&lt;本地分支名&gt;
+比如，取回远程库中的develop分支，与本地的develop分支进行merge，要写成：</p> <p>git pull origin develop:develop
+如果是要与本地当前分支merge，则冒号后面的&lt;本地分支名&gt;可以不写。</p> <p>git pull origin develop
+通常，git会将本地库分支与远程分支之间建立一种追踪关系。比如，在git clone的时候，所有本地分支默认与远程库的同名分支建立追踪关系。也就是说，本地的master分支自动追踪origin/master分支。因此，如果当前处于本地develop分支上，并且本地develop分支与远程的develop分支有追踪关系，那么远程的分支名可以省略：</p> <p>git pull origin</p> <p>其实，git pull 命令等同于先做了git fetch ，再做了git merge。即：</p> <p>git fetch origin develop
+git checkout develop
+git merge origin/develop</p> <p>或者</p> <p>git fetch origin master:tmp
+git diff tmp
+git merge tmp
+git branch -d tmp</p> <h3 id="使用git日常免不了遇到conflicts，那么如何消除conflicts呢"><a href="#使用git日常免不了遇到conflicts，那么如何消除conflicts呢" class="header-anchor">#</a> 使用git日常免不了遇到conflicts，那么如何消除conflicts呢</h3> <p>Step 1: From your project repository, check out a new branch and test the changes.</p> <p>git checkout -b apache-master master
+git pull https://github.com/apache/incubator-apisix.git master</p> <p>Step 2: Merge the changes and update on GitHub.</p> <p>git checkout master
+git merge --no-ff apache-master
+git push origin master</p> <p>以上的的例子， 我们从A合入到B：B &lt;== A。
+A: https://github.com/apache/incubator-apisix.git
+B: xxxx/incubator-apisix.git</p> <p>例子中有一个README.md的冲突，并且给出了解决的命令行参考。
+我们将逐条命令来解释如何按照提示解决冲突。</p> <p>假设我们已经在B的git 根目录下。
+git checkout -b apache-master master #建立B的 apache-master分支，并切换到apache-master
+git pull https://github.com/apache/incubator-apisix.git master # 将A最新的内容合入apache-master
+因为有冲突，所以上条执行时，会提示冲突：
+From https://github.com/apache/incubator-apisix</p> <ul><li>branch            master     -&gt; FETCH_HEAD
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+解决冲突[ ... resolve any conflicts ... ]：手动打开冲突文件，根据提示修改，删除冲突的内容，留下想要的结果内容。
+git add [files that were conflicted]
+git commit,将冲突修改提交本地仓库：
+git commit -m &quot;resolve the conflict&quot;
+[apache-master 6ad2d5e] resolve the conflict
+git checkout master # 将B切换为master
+git merge --no-ff apache-master #将B仓库的apache-master 合入 master
+git push origin master #将B仓库的最终的本地库推到云端master
+最终解决了冲突，完成了对B master的更新。</li></ul> <h2 id="挂代理"><a href="#挂代理" class="header-anchor">#</a> 挂代理</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>git config --global http.proxy http://172.24.48.1:7890
+git config --global https.proxy https://172.24.48.1:7890
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+npm config delete proxy
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><p>https://www.shuzhiduo.com/A/QV5Z86Xwzy/
+查看代理：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>git config --global --get http.proxy
+git config --global --get https.proxy
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="pr小知识"><a href="#pr小知识" class="header-anchor">#</a> pr小知识</h2> <p>https://github.com/aermin/blog/issues/50</p> <h2 id="解决-git-更新本地冲突：commit-your-changes-or-stash-them-before-you-can-merge"><a href="#解决-git-更新本地冲突：commit-your-changes-or-stash-them-before-you-can-merge" class="header-anchor">#</a> 解决 Git 更新本地冲突：commit your changes or stash them before you can merge</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>#方法一：stash
+
+git stash
+git pull
+git stash pop
+#方法二：直接完全覆盖本地修改
+git reset --hard
+git pull
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><h2 id="详解-git-大文件存储（git-lfs）"><a href="#详解-git-大文件存储（git-lfs）" class="header-anchor">#</a> 详解 Git 大文件存储（Git LFS）</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+sudo apt-get install git-lfs
+git lfs install
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>https://zhuanlan.zhihu.com/p/146683392</p> <h2 id="git-pull-强制覆盖本地的代码方式，下面是正确的方法："><a href="#git-pull-强制覆盖本地的代码方式，下面是正确的方法：" class="header-anchor">#</a> git pull 强制覆盖本地的代码方式，下面是正确的方法：</h2> <div class="language- line-numbers-mode"><pre class="language-text"><code>git fetch --all
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>然后，有两个选择：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>git reset --hard origin/master
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>或者在其他分支上：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>git reset --hard origin/&lt;branch_name&gt;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="git-clone-显示详细log和进度"><a href="#git-clone-显示详细log和进度" class="header-anchor">#</a> git clone 显示详细log和进度</h2> <p>加上--progress和--verbose参数</p> <h2 id="gitignore文件的配置使用"><a href="#gitignore文件的配置使用" class="header-anchor">#</a> .gitignore文件的配置使用</h2> <p><a href="https://zhuanlan.zhihu.com/p/52885189" target="_blank" rel="noopener noreferrer">.gitignore文件的配置使用<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></div> <footer class="page-edit" style="display:none;"><!----> <div class="last-updated"><span class="prefix">最后更新时间: </span> <span class="time">2023/12/18, 21:12:08</span></div></footer> <!----> <!----> <div class="article-list" data-v-61e7bf3a><div class="article-title" data-v-61e7bf3a><a href="/timeline/" class="iconfont icon-shizhong" data-v-61e7bf3a>最近更新</a></div> <div class="article-wrapper" data-v-61e7bf3a><dl data-v-61e7bf3a><dd data-v-61e7bf3a>01</dd> <dt data-v-61e7bf3a><a href="/views/AI/coder/" data-v-61e7bf3a><div data-v-61e7bf3a>编解码器详解</div></a> <span data-v-61e7bf3a>12-26</span></dt></dl><dl data-v-61e7bf3a><dd data-v-61e7bf3a>02</dd> <dt data-v-61e7bf3a><a href="/views/AI/handwrite/cnn/cifar.html" data-v-61e7bf3a><div data-v-61e7bf3a>手写神经网络-- 用 CIFAR10 训练达到 80%</div></a> <span data-v-61e7bf3a>11-26</span></dt></dl><dl data-v-61e7bf3a><dd data-v-61e7bf3a>03</dd> <dt data-v-61e7bf3a><a href="/views/ee/Humanoid_Robot/hector.html" data-v-61e7bf3a><div data-v-61e7bf3a>开源双足机器人仿真以及解析《一》</div></a> <span data-v-61e7bf3a>03-12</span></dt></dl></div> <div data-v-61e7bf3a><a href="/timeline/" class="article-more" data-v-61e7bf3a>更多文章 &gt;</a></div></div></main> <!----> <div class="comments-wrapper" data-v-4d80cb8a><div class="valine-wrapper"><div id="valine"></div></div></div></div></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-a81d141e data-v-a81d141e><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-a81d141e><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-a81d141e></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-a81d141e></path></svg></div><!----><div data-v-4a66ed39><div class="DetailsOpenFlag" style="right:1rem;bottom:9rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;font-size:14px;font-weight:500;display:none;" data-v-4a66ed39>
+ 展开
+
+</div></div><div class="kanbanniang" data-v-3c101199><div class="banniang-container" style="display:;" data-v-3c101199><div class="messageBox" style="right:68px;bottom:190px;display:none;" data-v-3c101199>
+      欢迎来到 GLIMMER小作坊的工具人
+    </div> <div class="operation" style="right:90px;bottom:40px;display:;" data-v-3c101199><i class="kbnfont kbn-ban-home ban-home" data-v-3c101199></i> <i class="kbnfont kbn-ban-message message" data-v-3c101199></i> <i class="kbnfont kbn-ban-close close" data-v-3c101199></i> <a target="_blank" href="https://vuepress-theme-reco.recoluan.com/views/plugins/kanbanniang.html" data-v-3c101199><i class="kbnfont kbn-ban-info info" data-v-3c101199></i></a> <i class="kbnfont kbn-ban-theme skin" style="display:;" data-v-3c101199></i></div> <canvas id="banniang" width="150" height="220" class="live2d" style="right:90px;bottom:-20px;opacity:0.9;" data-v-3c101199></canvas></div> <div class="showBanNiang" style="display:none;" data-v-3c101199>
+    看板娘
+  </div></div></div></div>
+    <script src="/assets/js/app.49083b88.js" defer></script><script src="/assets/js/5.1e50d71f.js" defer></script><script src="/assets/js/1.99bf47a0.js" defer></script><script src="/assets/js/2.2b407c75.js" defer></script><script src="/assets/js/122.02bbd18c.js" defer></script><script src="/assets/js/20.d4ee0efb.js" defer></script>
+  </body>
+</html>
