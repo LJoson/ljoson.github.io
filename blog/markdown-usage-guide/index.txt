@@ -1,0 +1,2725 @@
+2:I[313,["754","static/chunks/754-2d7956d0ca320083.js","308","static/chunks/app/blog/%5Bslug%5D/page-4898a743cdf7fc4a.js"],"BlogDetail"]
+4:I[1270,["754","static/chunks/754-2d7956d0ca320083.js","308","static/chunks/app/blog/%5Bslug%5D/page-4898a743cdf7fc4a.js"],"BlogSidebar"]
+5:I[4420,["754","static/chunks/754-2d7956d0ca320083.js","308","static/chunks/app/blog/%5Bslug%5D/page-4898a743cdf7fc4a.js"],"RelatedPosts"]
+c:I[4707,[],""]
+e:I[6423,[],""]
+f:I[3529,["185","static/chunks/app/layout-f6c41656a6971b66.js"],"ThemeProvider"]
+10:I[4326,["185","static/chunks/app/layout-f6c41656a6971b66.js"],"ClientLayout"]
+11:I[3164,["185","static/chunks/app/layout-f6c41656a6971b66.js"],"PageTransition"]
+12:I[3157,["185","static/chunks/app/layout-f6c41656a6971b66.js"],"Header"]
+13:I[3490,["601","static/chunks/app/error-aca96ac5bb368170.js"],"default"]
+14:I[5447,["160","static/chunks/app/not-found-b4a85d88d4259f8a.js"],"default"]
+15:I[2063,["185","static/chunks/app/layout-f6c41656a6971b66.js"],"Footer"]
+16:I[9615,["555","static/chunks/app/loading-14670c1b72ad4c70.js"],"default"]
+3:T3870,
+# 📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅
+
+## 学习动机：为什么选择Markdown？
+
+在开始学习Markdown之前，我一直在寻找一种简单高效的文档编写方式。
+
+**我的需求**：
+- 快速编写技术文档
+- 支持代码高亮
+- 易于版本控制
+- 跨平台兼容
+- 支持多媒体内容
+
+**传统方式的痛点**：
+- Word文档格式复杂，版本控制困难
+- HTML编写繁琐，需要专业知识
+- 纯文本缺乏格式，可读性差
+- 不同平台格式不兼容
+
+**Markdown的优势**：
+- 语法简单，学习成本低
+- 纯文本格式，版本控制友好
+- 跨平台兼容，随处可用
+- 支持扩展，功能丰富
+
+## 学习路径：从入门到精通
+
+### 第一阶段：基础语法掌握
+
+**学习目标**：掌握Markdown的基本语法
+
+**核心语法**：
+```markdown
+# 标题语法
+# 一级标题
+## 二级标题
+### 三级标题
+
+# 文本格式
+**粗体文本**
+*斜体文本*
+~~删除线文本~~
+
+# 列表语法
+- 无序列表项
+1. 有序列表项
+
+# 链接和图片
+[链接文本](URL)
+![图片描述](图片URL)
+
+# 代码块
+`行内代码`
+```代码块```
+```
+
+**我的练习方法**：
+1. 每天编写一篇技术笔记
+2. 使用不同的语法元素
+3. 在多个平台上测试
+4. 记录语法规则
+
+### 第二阶段：高级功能探索
+
+**学习目标**：掌握Markdown的高级功能
+
+**表格语法**：
+```markdown
+| 列1 | 列2 | 列3 |
+|-----|-----|-----|
+| 内容1 | 内容2 | 内容3 |
+| 内容4 | 内容5 | 内容6 |
+```
+
+**任务列表**：
+```markdown
+- [x] 已完成任务
+- [ ] 未完成任务
+- [ ] 待办事项
+```
+
+**引用块**：
+```markdown
+> 这是一个引用块
+> 可以包含多行内容
+>> 嵌套引用
+```
+
+**我的实践项目**：
+- 技术博客写作
+- 项目文档编写
+- 学习笔记整理
+- 会议记录制作
+
+### 第三阶段：扩展功能应用
+
+**学习目标**：掌握Markdown的扩展功能
+
+**数学公式**：
+```markdown
+行内公式：$E = mc^2$
+块级公式：
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+```
+
+**图表支持**：
+```markdown
+```mermaid
+graph TD
+    A[开始] --> B[处理]
+    B --> C[结束]
+```
+```
+
+**我的应用场景**：
+- 技术文档编写
+- 学术论文写作
+- 项目报告制作
+- 知识库建设
+
+## 实用技巧：我的最佳实践
+
+### 文档结构设计
+
+**我的文档模板**：
+```markdown
+# 文档标题
+
+## 概述
+简要介绍文档内容
+
+## 目录
+- [章节1](#章节1)
+- [章节2](#章节2)
+- [章节3](#章节3)
+
+## 章节1
+### 子章节1.1
+内容...
+
+### 子章节1.2
+内容...
+
+## 章节2
+内容...
+
+## 总结
+文档总结
+
+## 参考资料
+- [链接1](URL1)
+- [链接2](URL2)
+```
+
+**结构设计原则**：
+1. **层次清晰**：使用合适的标题层级
+2. **逻辑有序**：内容按逻辑顺序排列
+3. **易于导航**：提供目录和锚点链接
+4. **便于维护**：结构简单，易于修改
+
+### 内容组织技巧
+
+**我的组织方法**：
+```markdown
+# 技术文档组织
+## 快速开始
+- 环境准备
+- 安装步骤
+- 基本使用
+
+## 详细说明
+- 功能特性
+- 配置选项
+- 使用示例
+
+## 进阶应用
+- 高级功能
+- 最佳实践
+- 常见问题
+
+## 参考信息
+- API文档
+- 配置说明
+- 故障排除
+```
+
+**内容组织原则**：
+1. **用户导向**：从用户需求出发
+2. **渐进式**：从简单到复杂
+3. **实用性**：注重实际应用
+4. **完整性**：覆盖所有要点
+
+### 格式优化技巧
+
+**我的格式规范**：
+```markdown
+# 标题格式
+- 使用简洁明了的标题
+- 避免过长的标题
+- 保持层级一致性
+
+# 段落格式
+- 段落间空一行
+- 使用适当的缩进
+- 保持行长度适中
+
+# 列表格式
+- 统一使用无序列表
+- 保持缩进一致
+- 避免过深嵌套
+
+# 代码格式
+- 使用代码块显示代码
+- 添加语言标识
+- 保持代码整洁
+```
+
+**格式优化原则**：
+1. **一致性**：保持格式统一
+2. **可读性**：提高阅读体验
+3. **简洁性**：避免过度装饰
+4. **专业性**：体现技术水准
+
+## 多媒体内容：从文本到富媒体
+
+### 图片插入技巧
+
+**基础图片插入**：
+```markdown
+![图片描述](图片路径)
+![Logo](images/logo.png)
+```
+
+**高级图片功能**：
+```markdown
+# 带链接的图片
+[![图片描述](图片路径)](链接URL)
+
+# 指定尺寸的图片
+<img src="图片路径" width="300" height="200" alt="图片描述">
+
+# 居中对齐
+<div align="center">
+  <img src="图片路径" alt="图片描述">
+</div>
+```
+
+**我的图片管理**：
+1. **目录结构**：按类型和项目分类
+2. **命名规范**：使用描述性文件名
+3. **格式选择**：优先使用WebP和PNG
+4. **大小优化**：压缩图片文件
+
+### 视频嵌入技巧
+
+**B站视频嵌入**：
+```html
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV1J5411V7VZ&page=1&as_wide=1&high_quality=1&danmaku=0&t=0"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true">
+</iframe>
+```
+
+**YouTube视频嵌入**：
+```html
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+```
+
+**我的视频嵌入策略**：
+1. **平台选择**：根据内容选择合适的平台
+2. **参数优化**：调整播放参数提升体验
+3. **响应式设计**：适配不同屏幕尺寸
+4. **加载优化**：使用懒加载技术
+
+### 代码展示技巧
+
+**基础代码块**：
+```markdown
+```python
+def hello_world():
+    print("Hello, World!")
+```
+```
+
+**高级代码展示**：
+```markdown
+# 带行号的代码
+```python:main.py
+1| def fibonacci(n):
+2|     if n <= 1:
+3|         return n
+4|     return fibonacci(n-1) + fibonacci(n-2)
+```
+
+# 带高亮的代码
+```python
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+```
+```
+
+**我的代码展示规范**：
+1. **语言标识**：明确指定编程语言
+2. **注释完整**：添加必要的注释
+3. **格式整洁**：保持代码缩进
+4. **示例实用**：提供可运行的示例
+
+## 工具链：从编辑到发布
+
+### 编辑器选择
+
+**我的编辑器对比**：
+
+| 编辑器 | 优点 | 缺点 | 适用场景 |
+|--------|------|------|----------|
+| VS Code | 功能强大，插件丰富 | 配置复杂 | 专业开发 |
+| Typora | 所见即所得，简单易用 | 付费软件 | 日常写作 |
+| Obsidian | 知识管理，双向链接 | 学习成本高 | 知识库建设 |
+| Notion | 协作功能，云端同步 | 网络依赖 | 团队协作 |
+
+**我的选择策略**：
+1. **日常写作**：使用Typora
+2. **技术文档**：使用VS Code
+3. **知识管理**：使用Obsidian
+4. **团队协作**：使用Notion
+
+### 版本控制集成
+
+**Git集成方法**：
+```bash
+# 初始化仓库
+git init
+
+# 添加文件
+git add .
+
+# 提交更改
+git commit -m "更新Markdown文档"
+
+# 推送到远程
+git push origin main
+```
+
+**我的版本控制实践**：
+1. **分支管理**：使用功能分支
+2. **提交规范**：使用清晰的提交信息
+3. **冲突解决**：及时处理合并冲突
+4. **备份策略**：定期推送到远程仓库
+
+### 自动化工具
+
+**我的自动化脚本**：
+```python
+# 自动生成目录
+import re
+
+def generate_toc(markdown_file):
+    with open(markdown_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    lines = content.split('\n')
+    toc = []
+
+    for line in lines:
+        if line.startswith('#'):
+            level = len(line) - len(line.lstrip('#'))
+            title = line.lstrip('#').strip()
+            anchor = re.sub(r'[^\w\s-]', '', title.lower())
+            anchor = re.sub(r'[-\s]+', '-', anchor)
+
+            indent = '  ' * (level - 1)
+            toc.append(f'{indent}- [{title}](#{anchor})')
+
+    return '\n'.join(toc)
+```
+
+**自动化应用场景**：
+1. **目录生成**：自动生成文档目录
+2. **格式检查**：检查Markdown语法
+3. **链接验证**：验证文档链接
+4. **图片优化**：自动压缩图片
+
+## 平台适配：从本地到云端
+
+### 本地平台
+
+**我的本地工作流**：
+1. **文件组织**：按项目分类存储
+2. **命名规范**：使用统一的命名规则
+3. **备份策略**：定期备份重要文档
+4. **同步方案**：使用云盘同步
+
+**本地工具配置**：
+```json
+// VS Code Markdown配置
+{
+    "markdown.preview.breaks": true,
+    "markdown.preview.fontSize": 14,
+    "markdown.preview.lineHeight": 1.6,
+    "markdown.extension.toc.levels": "1..6",
+    "markdown.extension.toc.orderedList": false
+}
+```
+
+### 在线平台
+
+**我的平台使用策略**：
+
+**GitHub**：
+- 技术文档托管
+- 版本控制管理
+- 协作开发支持
+
+**GitBook**：
+- 项目文档发布
+- 在线阅读体验
+- 多语言支持
+
+**Notion**：
+- 团队知识库
+- 实时协作编辑
+- 数据库集成
+
+**我的平台选择标准**：
+1. **功能需求**：满足文档编写需求
+2. **协作能力**：支持团队协作
+3. **访问便利**：随时随地访问
+4. **成本考虑**：性价比合理
+
+### 移动端适配
+
+**移动端优化技巧**：
+```markdown
+# 响应式设计
+- 使用相对单位
+- 避免固定宽度
+- 适配触摸操作
+
+# 内容优化
+- 简化复杂表格
+- 优化图片大小
+- 减少嵌套层级
+```
+
+**我的移动端策略**：
+1. **内容简化**：移动端显示简化版本
+2. **交互优化**：适配触摸操作
+3. **加载优化**：减少资源加载
+4. **离线支持**：支持离线阅读
+
+## 质量保证：从编写到维护
+
+### 语法检查
+
+**我的检查工具**：
+```bash
+# 使用markdownlint检查语法
+npm install -g markdownlint-cli
+markdownlint *.md
+
+# 使用Vale检查内容
+vale --config=.vale.ini *.md
+```
+
+**检查规则配置**：
+```json
+// .markdownlint.json
+{
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD024": false
+}
+```
+
+**我的检查流程**：
+1. **语法检查**：检查Markdown语法
+2. **链接验证**：验证所有链接
+3. **图片检查**：确保图片正常显示
+4. **格式统一**：保持格式一致性
+
+### 内容审查
+
+**我的审查清单**：
+- [ ] 标题层级是否正确
+- [ ] 链接是否有效
+- [ ] 图片是否显示
+- [ ] 代码是否可运行
+- [ ] 格式是否统一
+- [ ] 内容是否准确
+- [ ] 逻辑是否清晰
+- [ ] 语言是否规范
+
+**审查流程**：
+1. **自检**：作者自我检查
+2. **同行评审**：同事交叉检查
+3. **用户测试**：实际用户验证
+4. **持续改进**：根据反馈优化
+
+### 维护更新
+
+**我的维护策略**：
+```markdown
+# 文档版本记录
+## 版本历史
+- v1.0.0 (2024-01-01) - 初始版本
+- v1.1.0 (2024-01-15) - 添加新功能
+- v1.2.0 (2024-02-01) - 修复问题
+
+# 更新日志
+## 2024-01-15
+- 新增：添加视频嵌入功能
+- 优化：改进表格显示效果
+- 修复：解决链接跳转问题
+```
+
+**维护原则**：
+1. **定期更新**：保持内容时效性
+2. **版本控制**：记录所有更改
+3. **反馈收集**：收集用户反馈
+4. **持续改进**：不断优化内容
+
+## 学习总结：我的成长轨迹
+
+### 技能提升
+
+**我的技能发展**：
+1. **基础语法**：熟练掌握Markdown语法
+2. **高级功能**：掌握扩展功能应用
+3. **工具使用**：熟练使用各种工具
+4. **平台适配**：了解不同平台特性
+
+**技能应用场景**：
+- 技术博客写作
+- 项目文档编写
+- 学习笔记整理
+- 会议记录制作
+- 知识库建设
+
+### 经验总结
+
+**我的学习经验**：
+1. **循序渐进**：从基础到高级
+2. **实践为主**：多写多练
+3. **工具辅助**：善用各种工具
+4. **持续学习**：关注新功能
+
+**我的最佳实践**：
+1. **模板化**：建立文档模板
+2. **标准化**：统一格式规范
+3. **自动化**：使用工具提高效率
+4. **协作化**：支持团队协作
+
+### 未来规划
+
+**我的学习计划**：
+1. **深入学习**：掌握更多高级功能
+2. **工具探索**：尝试新的编辑工具
+3. **平台扩展**：探索更多发布平台
+4. **技能分享**：帮助他人学习
+
+**我的应用计划**：
+1. **个人博客**：建立技术博客
+2. **项目文档**：完善项目文档
+3. **知识库**：建设个人知识库
+4. **教学分享**：制作教学材料
+
+## 参考资料
+
+### 官方文档
+- [Markdown官方文档](https://daringfireball.net/projects/markdown/)
+- [GitHub Markdown指南](https://docs.github.com/en/github/writing-on-github)
+- [CommonMark规范](https://commonmark.org/)
+
+### 学习资源
+- [Markdown教程](https://www.markdowntutorial.com/)
+- [Markdown语法速查](https://www.markdownguide.org/cheat-sheet/)
+- [Markdown编辑器对比](https://www.markdownguide.org/tools/)
+
+### 实用工具
+- [Markdown预览工具](https://dillinger.io/)
+- [Markdown语法检查](https://github.com/DavidAnson/markdownlint)
+- [Markdown转换工具](https://pandoc.org/)
+
+## 结语
+
+Markdown学习之旅让我从一个文档编写小白成长为能够熟练使用各种工具的文档专家。
+
+从基础的语法学习到高级功能应用，从本地编辑到云端协作，每一个阶段都让我对文档编写有了更深的理解。
+
+虽然学习过程中遇到了很多困难，但每一次问题的解决都让我成长。现在，Markdown已经成为我日常工作和学习中不可或缺的工具。
+
+记住，好的文档不仅仅是内容的记录，更是知识的传承和分享。Markdown让我们能够更高效地编写、管理和分享知识。
+
+---
+
+> 💡 **实用小贴士**：学习Markdown最好的方法就是多写多练。从简单的笔记开始，逐步应用到复杂的技术文档。记住，实践是最好的老师！
+
+*"在文档编写的世界里，让技术废柴也能成为Markdown专家！"* 📝
+6:T1785,
+# Linux日常使用笔记
+
+## 引言
+
+Linux系统使用的过程中常用命令实录，多为Ubuntu下的命令，注意文件夹与文件的区别，相对路径与绝对路径的区别。
+
+**注意**：本文内容不断更新中...
+
+## Ubuntu 18.04 常用命令
+
+### 查看文件大小常用命令
+
+#### 1. 使用stat命令查看
+
+stat命令一般用于查看文件的状态信息。stat命令的输出信息比ls命令的输出信息要更详细。
+
+```bash
+# 显示文件状态信息
+stat <file name>
+
+# 显示文件在系统的状态信息
+stat -f <file name>
+
+# 简明显示文件的状态信息
+stat -t <file name>
+```
+
+#### 2. 使用wc命令
+
+wc命令一般用于统计文件的信息，比如文本的行数，文件所占的字节数。
+
+```bash
+# 统计行数、单词数、字节数
+wc filename
+
+# 只统计行数
+wc -l filename
+
+# 只统计单词数
+wc -w filename
+
+# 只统计字节数
+wc -c filename
+```
+
+#### 3. 使用du命令
+
+du命令一般用于统计文件和目录所占用的空间大小。
+
+```bash
+# 显示目录大小
+du -sh directory_name
+
+# 显示当前目录下所有文件和目录的大小
+du -sh *
+
+# 显示指定深度的目录大小
+du -h --max-depth=1
+```
+
+#### 4. 使用ls命令
+
+ls命令一般用于查看文件和目录的信息，包括文件和目录权限、拥有者、所对应的组、文件大小、修改时间、文件对应的路径等等信息。
+
+```bash
+# 显示文件详细信息
+ls -l <file name>
+
+# 显示所有文件（包括隐藏文件）
+ls -la
+
+# 按文件大小排序
+ls -lhS
+
+# 按修改时间排序
+ls -lht
+```
+
+#### 5. file命令
+
+file命令用于确定文件类型。
+
+```bash
+# 确定文件类型
+file <file name>
+
+# 输出MIME类型字符串
+file -i <file name>
+```
+
+#### 6. Ubuntu deb包安装
+
+```bash
+# 下载deb包后，使用dpkg安装
+dpkg -i xxx.deb
+
+# 如果安装失败，可以尝试修复依赖
+sudo apt-get install -f
+```
+
+### 命令别名永久设置
+
+直接在shell里设定的命令别名，在终端关闭或者系统重新启动后都会失效，如何才能永久有效呢？
+
+1. **对当前用户有效**：
+   ```bash
+   # 编辑用户配置文件
+   nano ~/.bashrc
+
+   # 在文件中加入别名设置
+   alias rm='rm -i'
+   alias ll='ls -la'
+   alias ..='cd ..'
+
+   # 保存后执行
+   source ~/.bashrc
+   ```
+
+2. **对所有用户有效**：
+   ```bash
+   # 编辑系统配置文件
+   sudo nano /etc/bashrc
+
+   # 添加相同的别名设置
+   ```
+
+## Linux 终端分屏工具
+
+### 一、使用screen分屏
+
+screen只能上下分屏，不能左右分屏。
+
+#### 安装工具
+
+```bash
+sudo apt-get install screen
+```
+
+#### 使用工具
+
+```bash
+# 启动screen
+screen
+
+# 上下分屏
+Ctrl + a，然后按 Shift + s
+
+# 切换屏幕
+Ctrl + a，然后按 Tab键
+
+# 新建一个终端
+Ctrl + a，然后按 c
+
+# 关闭一个终端
+Ctrl + a，然后按 x（或直接按exit退出）
+```
+
+### 二、使用tmux分屏
+
+tmux既可以左右分屏，也可以上下分屏。
+
+#### 安装工具
+
+```bash
+sudo apt-get install tmux
+```
+
+#### 使用工具
+
+```bash
+# 启动tmux
+tmux
+
+# 上下分屏
+Ctrl + b，然后按 "
+
+# 左右分屏
+Ctrl + b，然后按 %
+
+# 切换屏幕
+Ctrl + b，然后按 o
+
+# 关闭一个终端
+Ctrl + b，然后按 x
+
+# 上下分屏与左右分屏切换
+Ctrl + b，然后按空格键
+```
+
+#### tmux高级操作
+
+```bash
+# 将当前面板置于新窗口
+!
+
+# 以1个单元格为单位移动边缘以调整当前面板大小
+Ctrl + 方向键
+
+# 以5个单元格为单位移动边缘以调整当前面板大小
+Alt + 方向键
+
+# 列出所有会话
+tmux list-sessions
+
+# 连接到指定会话
+tmux attach-session -t session_name
+
+# 创建新会话
+tmux new-session -s session_name
+```
+
+## 常用系统管理命令
+
+### 进程管理
+
+```bash
+# 查看进程
+ps aux
+
+# 查看特定进程
+ps aux | grep process_name
+
+# 杀死进程
+kill -9 process_id
+
+# 查看端口占用
+netstat -tulpn | grep port_number
+```
+
+### 磁盘管理
+
+```bash
+# 查看磁盘使用情况
+df -h
+
+# 查看目录大小
+du -sh /path/to/directory
+
+# 清理系统缓存
+sudo apt-get clean
+sudo apt-get autoremove
+```
+
+### 网络管理
+
+```bash
+# 查看网络接口
+ifconfig
+
+# 查看网络连接
+netstat -an
+
+# 测试网络连通性
+ping hostname
+
+# 查看路由表
+route -n
+```
+
+### 用户管理
+
+```bash
+# 添加用户
+sudo adduser username
+
+# 删除用户
+sudo deluser username
+
+# 修改用户密码
+passwd username
+
+# 查看用户信息
+id username
+```
+
+## 实用技巧
+
+### 1. 文件查找
+
+```bash
+# 按名称查找文件
+find /path/to/search -name "filename"
+
+# 按类型查找文件
+find /path/to/search -type f
+
+# 按大小查找文件
+find /path/to/search -size +100M
+
+# 按修改时间查找文件
+find /path/to/search -mtime -7
+```
+
+### 2. 文本处理
+
+```bash
+# 查看文件内容
+cat filename
+
+# 查看文件末尾
+tail -f filename
+
+# 查看文件开头
+head -n 10 filename
+
+# 搜索文本
+grep "search_text" filename
+
+# 替换文本
+sed 's/old_text/new_text/g' filename
+```
+
+### 3. 压缩解压
+
+```bash
+# 压缩文件
+tar -czf archive.tar.gz directory/
+
+# 解压文件
+tar -xzf archive.tar.gz
+
+# 压缩为zip格式
+zip -r archive.zip directory/
+
+# 解压zip文件
+unzip archive.zip
+```
+
+## 总结
+
+Linux命令行是系统管理的重要工具，掌握这些常用命令能够大大提高工作效率。关键要点包括：
+
+1. **文件操作**：掌握查看、复制、移动、删除等基本操作
+2. **进程管理**：了解如何查看和管理系统进程
+3. **终端工具**：熟练使用screen和tmux进行多任务处理
+4. **系统监控**：掌握磁盘、内存、网络等系统资源监控方法
+
+通过不断练习和实践，Linux命令行的使用会变得越来越熟练！
+
+7:T1113,
+# Python错误及解决方案集合
+
+## 引言
+
+学习Python总会不可避免的出现一些error，因此做一个解决error的集合，方便查阅。
+
+## 编码相关错误
+
+### 1. "no encoding declared （没有编码声明）"的解决方法
+
+**问题抛出**：
+
+```
+SyntaxError: Non-ASCII character '\xe8' in file C:/Users/ME/Desktop/Python project//requestĻ÷.py on line 8, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+```
+
+**解决方案**：
+
+环境是python2无法通过，python3就可以通过。
+
+写代码时往往喜欢注释，而且使用的是中文：
+
+```python
+#params 这个参数是用来构造链接的
+```
+
+如果要在python2的py文件里面写中文，则必须要添加一行声明文件编码的注释，否则python2会默认使用ASCII编码。
+
+因此我们必须要在第一行里将编码转换过来，第一行，必须是第一行。因为python是一种解释性语言，从上往下开始解释代码。
+
+可以使用：
+
+```python
+# -*- coding:utf-8 -*-
+```
+
+也可以这样：
+
+```python
+#coding=utf-8
+```
+
+### 2. UnicodeDecodeError: 'gbk' codec can't decode byte 0x93 in position 596: illegal multibyte sequence
+
+使用python读取文件时，需要注意一下编码格式，类似此种错误，可能是要处理的字符串本身不是gbk编码，但是却以gbk编码去解码，所以解决思路就是确定一下编码格式。例如加入如下编码解码格式：
+
+```python
+encoding='UTF-8'
+```
+
+## 环境配置问题
+
+### 1. pip 加速
+
+指定清华源：
+
+```bash
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+
+### 2. anaconda prompt显示中文
+
+所以需要在cmd或者prompt中输入下面的指令，就可以正确显示了：
+
+```bash
+CHCP 65001
+```
+
+这样就会更改控制台编码为utf-8
+
+出现LookupError: unknown encoding: cp65001此错误后改变编码方式即可解决：来回切换吧~
+
+```bash
+chcp 1252
+```
+
+**编码对照表**：
+
+| 十进制码值 | 对应编码名称 |
+|------------|-------------|
+| 950        | 繁体中文    |
+| 65001      | Unicode (UTF-8) |
+| 936        | 简体中文默认的GBK |
+| 437        | MS-DOS 美国英语 |
+
+## 导入错误
+
+### 解决python中cannot import name 'Bar' from 'pyecharts'问题
+
+1. **首先，先保证自己已经安装了pyecharts**，没有安装的话请：
+
+   win+R，运行cmd，然后键入`pip install pyecharts`，完成pyecharts的安装
+
+2. **因为pyecharts的版本更新问题**，现在已经不能写成：
+
+   ```python
+   from pyecharts import Bar
+   ```
+
+   需要改调用方法，应写成：
+
+   ```python
+   from pyecharts.charts import Bar
+   ```
+
+   此时就可以解决上面的问题了
+
+### Python 解决：NameError: name 'reload' is not defined 问题
+
+**对于 Python 2.X**：
+
+```python
+import sys
+reload(sys)
+sys.setdefaultencoding("utf-8")
+```
+
+**对于 <= Python 3.3**：
+
+```python
+import imp
+imp.reload(sys)
+```
+
+## 常见问题解决
+
+### 1. 虚拟环境问题
+
+创建虚拟环境：
+
+```bash
+python -m venv myenv
+```
+
+激活虚拟环境：
+
+```bash
+# Windows
+myenv\Scripts\activate
+
+# Linux/Mac
+source myenv/bin/activate
+```
+
+### 2. 包管理问题
+
+升级pip：
+
+```bash
+python -m pip install --upgrade pip
+```
+
+安装特定版本：
+
+```bash
+pip install package==version
+```
+
+### 3. 路径问题
+
+添加Python路径到环境变量：
+
+```bash
+# Windows
+set PATH=%PATH%;C:\Python39
+
+# Linux/Mac
+export PATH=$PATH:/usr/local/bin/python3
+```
+
+## 调试技巧
+
+### 1. 使用print调试
+
+```python
+print(f"变量值: {variable}")
+print(f"类型: {type(variable)}")
+```
+
+### 2. 使用pdb调试
+
+```python
+import pdb
+pdb.set_trace()  # 设置断点
+```
+
+### 3. 使用logging
+
+```python
+import logging
+logging.basicConfig(level=logging.DEBUG)
+logging.debug("调试信息")
+```
+
+## 总结
+
+Python开发中遇到错误是正常的，关键是要学会：
+
+1. **查看错误信息**：理解错误类型和位置
+2. **搜索解决方案**：利用搜索引擎和文档
+3. **记录解决方案**：建立自己的错误解决库
+4. **预防错误**：养成良好的编码习惯
+
+通过不断积累和总结，你会发现Python开发变得越来越顺畅！
+
+8:T58bd,
+# Git使用指南：技术废柴的版本控制实战手册
+
+> 从"add-commit-push"到"rebase-merge-stash"，我的Git技能进化史
+
+## 我与Git的"爱恨情仇"
+
+### 第一次"翻车"：提交了不该提交的文件
+
+还记得第一次使用Git时，我兴奋地执行了：
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin main
+```
+
+结果呢？我把整个 `node_modules` 文件夹都提交了，仓库大小瞬间从几MB变成了几百MB。导师看到后直接给我发了个"🤦‍♂️"的表情。
+
+### 第二次"翻车"：分支合并冲突
+
+好不容易学会了分支管理，结果在合并 `feature` 分支时遇到了冲突：
+```bash
+git merge feature
+# 冲突！冲突！到处都是冲突！
+```
+
+我直接删除了整个项目重新克隆，然后重新写了一遍代码。现在想想，真是"血泪史"啊！
+
+### 觉醒时刻：Git不是工具，是艺术
+
+经过无数次的"翻车"经历，我终于明白：Git不仅仅是一个版本控制工具，更是一门艺术。掌握Git，就是掌握代码的"时光机"。
+
+## Git核心概念：理解比记忆更重要
+
+### 三个区域：工作区、暂存区、版本库
+
+```bash
+# Git的三个重要区域就像三个不同的"世界"
+
+# 1. 工作区（Working Directory）- 你的"创作空间"
+#    - 你直接编辑的文件
+#    - 就像你的"画布"，可以随意修改
+
+# 2. 暂存区（Stage/Index）- 你的"准备区"
+#    - 临时存储准备提交的修改
+#    - 就像"画框"，决定哪些作品要展出
+
+# 3. 版本库（Repository）- 你的"博物馆"
+#    - 存储所有版本信息
+#    - 就像"历史档案"，记录每一次的"艺术创作"
+```
+
+### 文件状态：未跟踪、已修改、已暂存、已提交
+
+```bash
+# Git文件状态就像文件的"人生阶段"
+
+# untracked（未跟踪）- "新生儿"
+# 新创建的文件，Git还不知道它的存在
+
+# modified（已修改）- "成长中"
+# 文件被修改了，但还没有准备提交
+
+# staged（已暂存）- "准备就绪"
+# 文件已经准备好提交了
+
+# committed（已提交）- "历史记录"
+# 文件已经被永久保存在版本库中
+```
+
+## 日常开发工作流：从入门到精通
+
+### 基础工作流：单人开发
+
+```bash
+# 1. 开始新的一天
+git pull origin main  # 拉取最新代码
+
+# 2. 创建功能分支
+git checkout -b feature/new-feature
+
+# 3. 开发过程中
+git add .              # 添加修改
+git commit -m "feat: add new feature"  # 提交修改
+
+# 4. 完成功能后
+git push origin feature/new-feature  # 推送到远程
+
+# 5. 创建Pull Request
+# 在GitHub上创建PR，等待代码审查
+```
+
+### 高级工作流：团队协作
+
+```bash
+# 1. 团队协作的最佳实践
+git flow init  # 初始化Git Flow
+
+# 2. 功能开发
+git checkout -b feature/user-authentication
+# 开发功能...
+git commit -m "feat: implement user authentication"
+git push origin feature/user-authentication
+
+# 3. 代码审查
+# 创建Pull Request，等待审查
+
+# 4. 合并到开发分支
+git checkout develop
+git merge feature/user-authentication
+git push origin develop
+
+# 5. 发布版本
+git checkout -b release/v1.0.0
+# 修复bug，更新版本号
+git commit -m "chore: prepare release v1.0.0"
+git checkout main
+git merge release/v1.0.0
+git tag v1.0.0
+```
+
+## 实用命令大全：从基础到高级
+
+### 基础命令：日常必备
+
+#### 初始化和配置
+```bash
+# 全局配置
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱"
+
+# 查看配置
+git config --list
+git config user.name
+git config user.email
+
+# 设置默认编辑器
+git config --global core.editor "code --wait"  # VS Code
+```
+
+#### 仓库操作
+```bash
+# 初始化仓库
+git init
+
+# 克隆仓库
+git clone https://github.com/username/repository.git
+git clone -b develop https://github.com/username/repository.git  # 克隆特定分支
+
+# 查看状态
+git status
+git status -s  # 简洁模式
+
+# 查看提交历史
+git log
+git log --oneline  # 简洁模式
+git log --graph --oneline --all  # 图形化显示
+```
+
+#### 文件操作
+```bash
+# 添加文件
+git add filename.txt        # 添加特定文件
+git add .                   # 添加所有文件
+git add *.js               # 添加所有JS文件
+git add -p filename.txt    # 交互式添加
+
+# 提交修改
+git commit -m "feat: add new feature"
+git commit -am "fix: update existing feature"  # 跳过暂存区
+
+# 查看差异
+git diff                   # 工作区与暂存区的差异
+git diff --staged         # 暂存区与版本库的差异
+git diff HEAD~1           # 与上一次提交的差异
+```
+
+### 分支管理：团队协作的核心
+
+#### 分支操作
+```bash
+# 查看分支
+git branch                # 本地分支
+git branch -r             # 远程分支
+git branch -a             # 所有分支
+
+# 创建分支
+git branch feature/new-feature
+git checkout -b feature/new-feature  # 创建并切换
+
+# 切换分支
+git checkout main
+git switch main           # Git 2.23+ 推荐使用
+
+# 删除分支
+git branch -d feature/old-feature    # 安全删除
+git branch -D feature/old-feature    # 强制删除
+```
+
+#### 合并操作
+```bash
+# 合并分支
+git merge feature/new-feature
+
+# 解决冲突
+# 1. 编辑冲突文件
+# 2. 选择要保留的内容
+# 3. 添加解决后的文件
+git add .
+git commit -m "resolve merge conflicts"
+
+# 使用rebase保持历史整洁
+git rebase main
+git rebase -i HEAD~3      # 交互式rebase
+```
+
+### 高级技巧：提升效率的利器
+
+#### 暂存和恢复
+```bash
+# 暂存当前工作
+git stash
+git stash push -m "WIP: working on feature"
+
+# 查看暂存列表
+git stash list
+
+# 恢复暂存
+git stash pop             # 恢复并删除
+git stash apply stash@{0} # 恢复但不删除
+git stash drop stash@{0}  # 删除特定暂存
+
+# 清除所有暂存
+git stash clear
+```
+
+#### 撤销操作
+```bash
+# 撤销工作区修改
+git checkout -- filename.txt
+git restore filename.txt  # Git 2.23+
+
+# 撤销暂存区修改
+git reset HEAD filename.txt
+git restore --staged filename.txt  # Git 2.23+
+
+# 撤销提交
+git reset --soft HEAD~1   # 保留修改在暂存区
+git reset --mixed HEAD~1  # 保留修改在工作区
+git reset --hard HEAD~1   # 完全删除修改
+
+# 修改最后一次提交
+git commit --amend -m "new commit message"
+```
+
+#### 远程操作
+```bash
+# 查看远程仓库
+git remote -v
+
+# 添加远程仓库
+git remote add origin https://github.com/username/repository.git
+
+# 推送到远程
+git push origin main
+git push -u origin main   # 设置上游分支
+
+# 从远程拉取
+git pull origin main
+git fetch origin          # 只下载不合并
+
+# 删除远程分支
+git push origin --delete feature/old-feature
+```
+
+## 实战场景：常见问题的解决方案
+
+### 场景1：误提交敏感信息
+
+```bash
+# 问题：不小心提交了密码文件
+git add config.json
+git commit -m "add config"
+git push origin main
+
+# 解决方案：使用filter-branch清理历史
+git filter-branch --force --index-filter \
+  'git rm --cached --ignore-unmatch config.json' \
+  --prune-empty --tag-name-filter cat -- --all
+
+# 强制推送
+git push origin main --force
+```
+
+### 场景2：分支历史混乱
+
+```bash
+# 问题：分支历史像"意大利面条"
+# 解决方案：使用rebase整理历史
+
+# 1. 切换到功能分支
+git checkout feature/clean-history
+
+# 2. 交互式rebase
+git rebase -i main
+
+# 3. 在编辑器中整理提交
+# pick   abc1234 first commit
+# squash def5678 second commit
+# pick   ghi9012 third commit
+
+# 4. 解决冲突并继续
+git rebase --continue
+```
+
+### 场景3：紧急修复生产bug
+
+```bash
+# 问题：生产环境出现紧急bug
+# 解决方案：使用hotfix分支
+
+# 1. 从main分支创建hotfix
+git checkout main
+git checkout -b hotfix/critical-bug
+
+# 2. 修复bug
+# 编辑代码...
+
+# 3. 提交修复
+git commit -m "fix: critical bug in production"
+
+# 4. 合并到main和develop
+git checkout main
+git merge hotfix/critical-bug
+git tag v1.0.1
+
+git checkout develop
+git merge hotfix/critical-bug
+
+# 5. 删除hotfix分支
+git branch -d hotfix/critical-bug
+```
+
+### 场景4：代码回滚
+
+```bash
+# 问题：新版本有问题，需要回滚
+# 解决方案：使用revert或reset
+
+# 方法1：使用revert（推荐，保留历史）
+git revert HEAD~2..HEAD
+git push origin main
+
+# 方法2：使用reset（危险，重写历史）
+git reset --hard HEAD~2
+git push origin main --force
+```
+
+## 最佳实践：提升团队协作效率
+
+### 提交信息规范
+
+```bash
+# 使用约定式提交
+git commit -m "feat: add user authentication"
+git commit -m "fix: resolve login bug"
+git commit -m "docs: update README"
+git commit -m "style: format code"
+git commit -m "refactor: simplify login logic"
+git commit -m "test: add unit tests"
+git commit -m "chore: update dependencies"
+
+# 提交信息格式
+# <type>(<scope>): <description>
+#
+# [optional body]
+#
+# [optional footer]
+```
+
+### 分支命名规范
+
+```bash
+# 功能分支
+feature/user-authentication
+feature/payment-integration
+
+# 修复分支
+fix/login-bug
+fix/performance-issue
+
+# 发布分支
+release/v1.0.0
+release/v2.1.0
+
+# 热修复分支
+hotfix/critical-bug
+hotfix/security-patch
+```
+
+### Git Flow工作流
+
+```bash
+# 初始化Git Flow
+git flow init
+
+# 功能开发
+git flow feature start user-auth
+# 开发功能...
+git flow feature finish user-auth
+
+# 发布准备
+git flow release start v1.0.0
+# 修复bug，更新版本号
+git flow release finish v1.0.0
+
+# 热修复
+git flow hotfix start critical-bug
+# 修复bug
+git flow hotfix finish critical-bug
+```
+
+## 工具集成：提升开发体验
+
+### IDE集成
+
+#### VS Code
+```json
+// .vscode/settings.json
+{
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.ignoreLimitWarning": true,
+  "git.ignoreSubmodules": true
+}
+```
+
+#### 常用扩展
+- GitLens：增强Git功能
+- Git History：查看文件历史
+- Git Graph：可视化Git历史
+
+### 命令行工具
+
+#### 别名配置
+```bash
+# 添加到 ~/.gitconfig
+[alias]
+    st = status
+    co = checkout
+    br = branch
+    ci = commit
+    ca = commit -a
+    unstage = reset HEAD --
+    last = log -1 HEAD
+    visual = !gitk
+    lg = log --graph --oneline --all
+    ll = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+```
+
+#### 第三方工具
+```bash
+# 安装tig（文本模式Git浏览器）
+brew install tig  # macOS
+sudo apt install tig  # Ubuntu
+
+# 安装lazygit（终端Git客户端）
+brew install lazygit  # macOS
+```
+
+## 性能优化：提升Git效率
+
+### 仓库优化
+
+```bash
+# 清理和优化仓库
+git gc                    # 垃圾回收
+git prune                 # 删除悬空对象
+git repack -a -d         # 重新打包对象
+
+# 查看仓库大小
+du -sh .git
+git count-objects -vH
+```
+
+### 大文件处理
+
+```bash
+# 使用Git LFS处理大文件
+git lfs install
+git lfs track "*.psd"
+git lfs track "*.zip"
+git add .gitattributes
+git commit -m "add Git LFS tracking"
+```
+
+### 克隆优化
+
+```bash
+# 浅克隆（只获取最新版本）
+git clone --depth 1 https://github.com/username/repository.git
+
+# 单分支克隆
+git clone -b main --single-branch https://github.com/username/repository.git
+
+# 使用镜像加速
+git clone https://github.com.cnpmjs.org/username/repository.git
+```
+
+## 常见问题与解决方案
+
+### 问题1：Git速度慢
+
+**原因分析：**
+- 网络连接问题
+- 仓库过大
+- Git配置不当
+
+**解决方案：**
+```bash
+# 配置Git代理
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy https://127.0.0.1:7890
+
+# 使用SSH替代HTTPS
+git remote set-url origin git@github.com:username/repository.git
+
+# 配置Git缓存
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=3600'
+```
+
+### 问题2：合并冲突频繁
+
+**原因分析：**
+- 分支策略不当
+- 代码审查不严格
+- 团队协作不规范
+
+**解决方案：**
+```bash
+# 使用rebase保持历史整洁
+git config --global pull.rebase true
+
+# 定期同步主分支
+git checkout main
+git pull origin main
+git checkout feature/branch
+git rebase main
+
+# 使用merge策略
+git config --global merge.ff false
+```
+
+### 问题3：提交历史混乱
+
+**原因分析：**
+- 提交粒度不当
+- 提交信息不规范
+- 分支管理混乱
+
+**解决方案：**
+```bash
+# 使用交互式rebase整理历史
+git rebase -i HEAD~5
+
+# 使用commit模板
+# 创建 ~/.gitmessage 文件
+git config --global commit.template ~/.gitmessage
+
+# 使用pre-commit钩子
+# 安装husky和lint-staged
+npm install --save-dev husky lint-staged
+```
+
+## 总结与反思
+
+### Git学习的三个阶段
+
+**第一阶段：工具使用**
+- 掌握基本命令
+- 理解核心概念
+- 能够独立开发
+
+**第二阶段：团队协作**
+- 理解分支策略
+- 掌握合并技巧
+- 学会解决冲突
+
+**第三阶段：最佳实践**
+- 制定团队规范
+- 优化工作流程
+- 提升开发效率
+
+### 我的Git哲学
+
+1. **版本控制是艺术**：每一次提交都应该有意义
+2. **历史记录是财富**：清晰的提交历史是团队的无形资产
+3. **协作比个人更重要**：Git的价值在于团队协作
+4. **学习是永无止境的**：Git功能强大，总有新技巧等待发现
+
+### 给其他"废柴"的建议
+
+1. **从基础开始**：不要急于学习高级技巧
+2. **多实践多犯错**：Git的学习过程就是不断犯错和改正
+3. **理解原理**：知其然更要知其所以然
+4. **制定规范**：团队协作需要统一的规范
+
+## 参考资料
+
+- [Git官方文档](https://git-scm.com/doc)
+- [GitHub Guides](https://guides.github.com/)
+- [Git Flow工作流](https://nvie.com/posts/a-successful-git-branching-model/)
+- [约定式提交](https://www.conventionalcommits.org/)
+
+## 结语
+
+Git不仅仅是一个版本控制工具，更是现代软件开发的基础设施。掌握Git，就是掌握代码的"时光机"，能够自由地在代码的历史长河中穿梭。
+
+记住，Git的学习是一个渐进的过程，不要急于求成。从简单的 `add-commit-push` 开始，逐步掌握分支管理、团队协作、高级技巧，最终成为Git的"艺术家"。
+
+## 实用小贴士
+
+### 🎯 Git学习路径
+- [ ] 掌握基础命令（add, commit, push, pull）
+- [ ] 理解分支管理（branch, checkout, merge）
+- [ ] 学会解决冲突（conflict resolution）
+- [ ] 掌握高级技巧（rebase, stash, reset）
+- [ ] 制定团队规范（commit message, branch naming）
+
+### 🚀 快速开始
+```bash
+# 1. 安装Git
+# Windows: https://git-scm.com/download/win
+# macOS: brew install git
+# Linux: sudo apt install git
+
+# 2. 配置用户信息
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱"
+
+# 3. 创建第一个仓库
+mkdir my-project && cd my-project
+git init
+echo "# My Project" > README.md
+git add README.md
+git commit -m "Initial commit"
+
+# 4. 推送到GitHub
+git remote add origin https://github.com/username/repository.git
+git push -u origin main
+```
+
+### 💡 进阶技巧
+- 使用Git Flow管理项目
+- 配置pre-commit钩子
+- 使用Git LFS处理大文件
+- 集成CI/CD流程
+- 使用Git子模块管理依赖
+
+---
+
+## 📚 Git学习笔记补充：踩坑经验分享
+
+> 作为一个技术废柴，学习Git就像是在学习一门新的语言。刚开始的时候，我连最基本的命令都记不住，更别说理解那些复杂的概念了。这里补充一些我的Git学习踩坑经验。
+
+### 🎯 为什么学习Git？
+
+在开始学习Git之前，我经常遇到这样的问题：
+- 代码改着改着就不知道改到哪里了
+- 想要回到之前的版本，却发现没有备份
+- 和别人协作时，代码冲突解决不了
+- 项目文件管理混乱，找不到需要的文件
+
+后来听说Git是版本控制的"神器"，于是就开始了我的Git学习之路。
+
+### 🚀 Git基础配置踩坑经验
+
+#### 1. 初始配置
+
+```bash
+# 设置用户名和邮箱
+git config --global user.name "你的用户名"
+git config --global user.email "你的邮箱"
+
+# 测试SSH连接
+ssh -T git@github.com
+```
+
+**踩坑经验**：第一次配置时，我把邮箱写错了，结果提交记录显示的是错误的邮箱。后来才知道可以通过`git config --global --edit`来修改。
+
+#### 2. 创建SSH Key
+
+```bash
+# 创建SSH Key
+ssh-keygen -t rsa -C '你的邮箱'
+
+# 关联远程仓库
+git remote add origin git@github.com:username/repository.git
+```
+
+### 📝 基础操作踩坑经验
+
+#### 仓库初始化
+
+```bash
+# 创建本地仓库
+mkdir myproject
+cd myproject
+git init
+
+# 克隆远程仓库
+git clone git@github.com:username/repository.git
+```
+
+#### 文件操作
+
+```bash
+# 添加文件到暂存区
+git add filename.txt
+git add .  # 添加所有文件
+
+# 提交到版本库
+git commit -m "提交说明"
+
+# 查看状态
+git status
+
+# 查看修改内容
+git diff
+```
+
+**踩坑经验**：刚开始的时候，我总是忘记先`git add`就直接`git commit`，结果发现文件没有被提交。后来才明白Git有三个区域：工作区、暂存区、版本库。
+
+#### 版本管理
+
+```bash
+# 查看提交历史
+git log
+git log --pretty=oneline  # 单行显示
+
+# 回退版本
+git reset --hard HEAD^    # 回退到上一个版本
+git reset --hard HEAD^^   # 回退到上上个版本
+git reset --hard HEAD~100 # 回退到100个版本前
+
+# 查看历史命令
+git reflog
+```
+
+**踩坑经验**：有一次我误删了重要的代码，想要回退版本，结果发现`git log`看不到之前的提交记录。后来才知道要用`git reflog`查看所有操作历史。
+
+### 🌿 分支管理踩坑经验
+
+#### 分支操作
+
+```bash
+# 创建并切换分支
+git checkout -b dev
+
+# 查看分支
+git branch
+
+# 切换分支
+git checkout main
+
+# 合并分支
+git merge dev
+
+# 删除分支
+git branch -d dev
+```
+
+#### 分支合并策略
+
+```bash
+# 禁用Fast forward合并
+git merge --no-ff -m "合并说明" dev
+
+# 查看分支合并图
+git log --graph
+```
+
+**踩坑经验**：刚开始合并分支时，我总是用`git merge --ff`，结果发现分支历史信息丢失了。后来才知道`--no-ff`可以保留分支历史。
+
+#### 工作现场管理
+
+```bash
+# 隐藏当前工作现场
+git stash
+
+# 查看stash记录
+git stash list
+
+# 恢复现场
+git stash apply  # 仅恢复，不删除stash
+git stash pop    # 恢复并删除stash
+```
+
+**踩坑经验**：有一次我正在开发新功能，突然需要切换到其他分支修复bug。当时不知道`git stash`，结果要么提交未完成的代码，要么放弃当前工作。后来学会了`git stash`，真是救了我的命。
+
+### 🔗 远程仓库操作踩坑经验
+
+#### 推送和拉取
+
+```bash
+# 推送到远程仓库
+git push -u origin main  # 第一次推送，建立关联
+git push origin main     # 后续推送
+
+# 从远程拉取
+git pull origin main
+
+# 查看远程仓库信息
+git remote -v
+```
+
+#### 分支关联
+
+```bash
+# 创建本地分支对应远程分支
+git checkout -b branch-name origin/branch-name
+
+# 建立本地分支和远程分支的关联
+git branch --set-upstream branch-name origin/branch-name
+```
+
+**踩坑经验**：刚开始协作时，我总是忘记先`git pull`就直接`git push`，结果经常遇到冲突。后来养成了习惯：每次推送前先拉取最新代码。
+
+### 🏷️ 标签管理
+
+```bash
+# 创建标签
+git tag v1.0
+git tag -a v0.1 -m "版本0.1发布" commit-id
+
+# 查看标签
+git tag
+
+# 推送标签
+git push origin v1.0
+git push origin --tags  # 推送所有标签
+```
+
+### 💡 高级技巧踩坑经验
+
+#### 1. 撤销操作
+
+```bash
+# 撤销工作区的修改
+git checkout -- filename
+
+# 撤销暂存区的修改
+git reset HEAD filename
+
+# 撤销提交
+git reset --soft HEAD^   # 撤销提交，保留修改
+git reset --hard HEAD^   # 撤销提交，丢弃修改
+```
+
+#### 2. 查看文件历史
+
+```bash
+# 查看文件的修改历史
+git log --follow filename
+
+# 查看某次提交的详细信息
+git show commit-id
+```
+
+#### 3. 解决冲突
+
+当遇到合并冲突时：
+1. 打开冲突文件，找到冲突标记
+2. 手动编辑，选择要保留的代码
+3. 删除冲突标记
+4. 重新提交
+
+**踩坑经验**：第一次遇到冲突时，我完全不知道该怎么办，直接删除了所有冲突标记，结果代码逻辑出错了。后来学会了仔细分析冲突内容，选择正确的代码。
+
+### 🎉 学习心得
+
+#### 1. 理解Git的核心概念
+- **工作区**：你直接编辑文件的地方
+- **暂存区**：准备提交的文件
+- **版本库**：已经提交的版本历史
+
+#### 2. 养成好习惯
+- 经常提交，每次提交都有明确的说明
+- 使用分支开发新功能
+- 推送前先拉取最新代码
+- 定期清理不需要的分支
+
+#### 3. 常用命令总结
+
+| 操作 | 命令 |
+|------|------|
+| 查看状态 | `git status` |
+| 添加文件 | `git add .` |
+| 提交代码 | `git commit -m "说明"` |
+| 查看历史 | `git log` |
+| 切换分支 | `git checkout branch-name` |
+| 合并分支 | `git merge branch-name` |
+| 推送到远程 | `git push origin branch-name` |
+| 拉取最新代码 | `git pull origin branch-name` |
+
+### 🤔 给其他"废柴"的建议
+
+1. **不要害怕**：Git看起来很复杂，但掌握基础命令就够用了
+2. **多练习**：理论不如实践，多操作几次就熟悉了
+3. **记录笔记**：把常用的命令和踩坑经验记录下来
+4. **使用图形界面**：如果命令行不习惯，可以先用Git GUI工具
+
+### 📚 学习资源
+
+- [Git官方文档](https://git-scm.com/doc)
+- [GitHub Guides](https://guides.github.com/)
+- [廖雪峰Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)
+
+---
+
+*"技术废柴"的Git学习之路充满了各种踩坑，但每一次踩坑都是成长的机会。现在我已经能够熟练使用Git进行版本控制了，虽然偶尔还是会遇到问题，但至少知道怎么解决了！*
+
+a:["Markdown","文档编写","视频插入","目录结构","B站视频","技术文档","跨界探索"]
+b:T3870,
+# 📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅
+
+## 学习动机：为什么选择Markdown？
+
+在开始学习Markdown之前，我一直在寻找一种简单高效的文档编写方式。
+
+**我的需求**：
+- 快速编写技术文档
+- 支持代码高亮
+- 易于版本控制
+- 跨平台兼容
+- 支持多媒体内容
+
+**传统方式的痛点**：
+- Word文档格式复杂，版本控制困难
+- HTML编写繁琐，需要专业知识
+- 纯文本缺乏格式，可读性差
+- 不同平台格式不兼容
+
+**Markdown的优势**：
+- 语法简单，学习成本低
+- 纯文本格式，版本控制友好
+- 跨平台兼容，随处可用
+- 支持扩展，功能丰富
+
+## 学习路径：从入门到精通
+
+### 第一阶段：基础语法掌握
+
+**学习目标**：掌握Markdown的基本语法
+
+**核心语法**：
+```markdown
+# 标题语法
+# 一级标题
+## 二级标题
+### 三级标题
+
+# 文本格式
+**粗体文本**
+*斜体文本*
+~~删除线文本~~
+
+# 列表语法
+- 无序列表项
+1. 有序列表项
+
+# 链接和图片
+[链接文本](URL)
+![图片描述](图片URL)
+
+# 代码块
+`行内代码`
+```代码块```
+```
+
+**我的练习方法**：
+1. 每天编写一篇技术笔记
+2. 使用不同的语法元素
+3. 在多个平台上测试
+4. 记录语法规则
+
+### 第二阶段：高级功能探索
+
+**学习目标**：掌握Markdown的高级功能
+
+**表格语法**：
+```markdown
+| 列1 | 列2 | 列3 |
+|-----|-----|-----|
+| 内容1 | 内容2 | 内容3 |
+| 内容4 | 内容5 | 内容6 |
+```
+
+**任务列表**：
+```markdown
+- [x] 已完成任务
+- [ ] 未完成任务
+- [ ] 待办事项
+```
+
+**引用块**：
+```markdown
+> 这是一个引用块
+> 可以包含多行内容
+>> 嵌套引用
+```
+
+**我的实践项目**：
+- 技术博客写作
+- 项目文档编写
+- 学习笔记整理
+- 会议记录制作
+
+### 第三阶段：扩展功能应用
+
+**学习目标**：掌握Markdown的扩展功能
+
+**数学公式**：
+```markdown
+行内公式：$E = mc^2$
+块级公式：
+$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+```
+
+**图表支持**：
+```markdown
+```mermaid
+graph TD
+    A[开始] --> B[处理]
+    B --> C[结束]
+```
+```
+
+**我的应用场景**：
+- 技术文档编写
+- 学术论文写作
+- 项目报告制作
+- 知识库建设
+
+## 实用技巧：我的最佳实践
+
+### 文档结构设计
+
+**我的文档模板**：
+```markdown
+# 文档标题
+
+## 概述
+简要介绍文档内容
+
+## 目录
+- [章节1](#章节1)
+- [章节2](#章节2)
+- [章节3](#章节3)
+
+## 章节1
+### 子章节1.1
+内容...
+
+### 子章节1.2
+内容...
+
+## 章节2
+内容...
+
+## 总结
+文档总结
+
+## 参考资料
+- [链接1](URL1)
+- [链接2](URL2)
+```
+
+**结构设计原则**：
+1. **层次清晰**：使用合适的标题层级
+2. **逻辑有序**：内容按逻辑顺序排列
+3. **易于导航**：提供目录和锚点链接
+4. **便于维护**：结构简单，易于修改
+
+### 内容组织技巧
+
+**我的组织方法**：
+```markdown
+# 技术文档组织
+## 快速开始
+- 环境准备
+- 安装步骤
+- 基本使用
+
+## 详细说明
+- 功能特性
+- 配置选项
+- 使用示例
+
+## 进阶应用
+- 高级功能
+- 最佳实践
+- 常见问题
+
+## 参考信息
+- API文档
+- 配置说明
+- 故障排除
+```
+
+**内容组织原则**：
+1. **用户导向**：从用户需求出发
+2. **渐进式**：从简单到复杂
+3. **实用性**：注重实际应用
+4. **完整性**：覆盖所有要点
+
+### 格式优化技巧
+
+**我的格式规范**：
+```markdown
+# 标题格式
+- 使用简洁明了的标题
+- 避免过长的标题
+- 保持层级一致性
+
+# 段落格式
+- 段落间空一行
+- 使用适当的缩进
+- 保持行长度适中
+
+# 列表格式
+- 统一使用无序列表
+- 保持缩进一致
+- 避免过深嵌套
+
+# 代码格式
+- 使用代码块显示代码
+- 添加语言标识
+- 保持代码整洁
+```
+
+**格式优化原则**：
+1. **一致性**：保持格式统一
+2. **可读性**：提高阅读体验
+3. **简洁性**：避免过度装饰
+4. **专业性**：体现技术水准
+
+## 多媒体内容：从文本到富媒体
+
+### 图片插入技巧
+
+**基础图片插入**：
+```markdown
+![图片描述](图片路径)
+![Logo](images/logo.png)
+```
+
+**高级图片功能**：
+```markdown
+# 带链接的图片
+[![图片描述](图片路径)](链接URL)
+
+# 指定尺寸的图片
+<img src="图片路径" width="300" height="200" alt="图片描述">
+
+# 居中对齐
+<div align="center">
+  <img src="图片路径" alt="图片描述">
+</div>
+```
+
+**我的图片管理**：
+1. **目录结构**：按类型和项目分类
+2. **命名规范**：使用描述性文件名
+3. **格式选择**：优先使用WebP和PNG
+4. **大小优化**：压缩图片文件
+
+### 视频嵌入技巧
+
+**B站视频嵌入**：
+```html
+<iframe
+  src="https://player.bilibili.com/player.html?bvid=BV1J5411V7VZ&page=1&as_wide=1&high_quality=1&danmaku=0&t=0"
+  scrolling="no"
+  border="0"
+  frameborder="no"
+  framespacing="0"
+  allowfullscreen="true">
+</iframe>
+```
+
+**YouTube视频嵌入**：
+```html
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/VIDEO_ID"
+  frameborder="0"
+  allowfullscreen>
+</iframe>
+```
+
+**我的视频嵌入策略**：
+1. **平台选择**：根据内容选择合适的平台
+2. **参数优化**：调整播放参数提升体验
+3. **响应式设计**：适配不同屏幕尺寸
+4. **加载优化**：使用懒加载技术
+
+### 代码展示技巧
+
+**基础代码块**：
+```markdown
+```python
+def hello_world():
+    print("Hello, World!")
+```
+```
+
+**高级代码展示**：
+```markdown
+# 带行号的代码
+```python:main.py
+1| def fibonacci(n):
+2|     if n <= 1:
+3|         return n
+4|     return fibonacci(n-1) + fibonacci(n-2)
+```
+
+# 带高亮的代码
+```python
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+```
+```
+
+**我的代码展示规范**：
+1. **语言标识**：明确指定编程语言
+2. **注释完整**：添加必要的注释
+3. **格式整洁**：保持代码缩进
+4. **示例实用**：提供可运行的示例
+
+## 工具链：从编辑到发布
+
+### 编辑器选择
+
+**我的编辑器对比**：
+
+| 编辑器 | 优点 | 缺点 | 适用场景 |
+|--------|------|------|----------|
+| VS Code | 功能强大，插件丰富 | 配置复杂 | 专业开发 |
+| Typora | 所见即所得，简单易用 | 付费软件 | 日常写作 |
+| Obsidian | 知识管理，双向链接 | 学习成本高 | 知识库建设 |
+| Notion | 协作功能，云端同步 | 网络依赖 | 团队协作 |
+
+**我的选择策略**：
+1. **日常写作**：使用Typora
+2. **技术文档**：使用VS Code
+3. **知识管理**：使用Obsidian
+4. **团队协作**：使用Notion
+
+### 版本控制集成
+
+**Git集成方法**：
+```bash
+# 初始化仓库
+git init
+
+# 添加文件
+git add .
+
+# 提交更改
+git commit -m "更新Markdown文档"
+
+# 推送到远程
+git push origin main
+```
+
+**我的版本控制实践**：
+1. **分支管理**：使用功能分支
+2. **提交规范**：使用清晰的提交信息
+3. **冲突解决**：及时处理合并冲突
+4. **备份策略**：定期推送到远程仓库
+
+### 自动化工具
+
+**我的自动化脚本**：
+```python
+# 自动生成目录
+import re
+
+def generate_toc(markdown_file):
+    with open(markdown_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    lines = content.split('\n')
+    toc = []
+
+    for line in lines:
+        if line.startswith('#'):
+            level = len(line) - len(line.lstrip('#'))
+            title = line.lstrip('#').strip()
+            anchor = re.sub(r'[^\w\s-]', '', title.lower())
+            anchor = re.sub(r'[-\s]+', '-', anchor)
+
+            indent = '  ' * (level - 1)
+            toc.append(f'{indent}- [{title}](#{anchor})')
+
+    return '\n'.join(toc)
+```
+
+**自动化应用场景**：
+1. **目录生成**：自动生成文档目录
+2. **格式检查**：检查Markdown语法
+3. **链接验证**：验证文档链接
+4. **图片优化**：自动压缩图片
+
+## 平台适配：从本地到云端
+
+### 本地平台
+
+**我的本地工作流**：
+1. **文件组织**：按项目分类存储
+2. **命名规范**：使用统一的命名规则
+3. **备份策略**：定期备份重要文档
+4. **同步方案**：使用云盘同步
+
+**本地工具配置**：
+```json
+// VS Code Markdown配置
+{
+    "markdown.preview.breaks": true,
+    "markdown.preview.fontSize": 14,
+    "markdown.preview.lineHeight": 1.6,
+    "markdown.extension.toc.levels": "1..6",
+    "markdown.extension.toc.orderedList": false
+}
+```
+
+### 在线平台
+
+**我的平台使用策略**：
+
+**GitHub**：
+- 技术文档托管
+- 版本控制管理
+- 协作开发支持
+
+**GitBook**：
+- 项目文档发布
+- 在线阅读体验
+- 多语言支持
+
+**Notion**：
+- 团队知识库
+- 实时协作编辑
+- 数据库集成
+
+**我的平台选择标准**：
+1. **功能需求**：满足文档编写需求
+2. **协作能力**：支持团队协作
+3. **访问便利**：随时随地访问
+4. **成本考虑**：性价比合理
+
+### 移动端适配
+
+**移动端优化技巧**：
+```markdown
+# 响应式设计
+- 使用相对单位
+- 避免固定宽度
+- 适配触摸操作
+
+# 内容优化
+- 简化复杂表格
+- 优化图片大小
+- 减少嵌套层级
+```
+
+**我的移动端策略**：
+1. **内容简化**：移动端显示简化版本
+2. **交互优化**：适配触摸操作
+3. **加载优化**：减少资源加载
+4. **离线支持**：支持离线阅读
+
+## 质量保证：从编写到维护
+
+### 语法检查
+
+**我的检查工具**：
+```bash
+# 使用markdownlint检查语法
+npm install -g markdownlint-cli
+markdownlint *.md
+
+# 使用Vale检查内容
+vale --config=.vale.ini *.md
+```
+
+**检查规则配置**：
+```json
+// .markdownlint.json
+{
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD024": false
+}
+```
+
+**我的检查流程**：
+1. **语法检查**：检查Markdown语法
+2. **链接验证**：验证所有链接
+3. **图片检查**：确保图片正常显示
+4. **格式统一**：保持格式一致性
+
+### 内容审查
+
+**我的审查清单**：
+- [ ] 标题层级是否正确
+- [ ] 链接是否有效
+- [ ] 图片是否显示
+- [ ] 代码是否可运行
+- [ ] 格式是否统一
+- [ ] 内容是否准确
+- [ ] 逻辑是否清晰
+- [ ] 语言是否规范
+
+**审查流程**：
+1. **自检**：作者自我检查
+2. **同行评审**：同事交叉检查
+3. **用户测试**：实际用户验证
+4. **持续改进**：根据反馈优化
+
+### 维护更新
+
+**我的维护策略**：
+```markdown
+# 文档版本记录
+## 版本历史
+- v1.0.0 (2024-01-01) - 初始版本
+- v1.1.0 (2024-01-15) - 添加新功能
+- v1.2.0 (2024-02-01) - 修复问题
+
+# 更新日志
+## 2024-01-15
+- 新增：添加视频嵌入功能
+- 优化：改进表格显示效果
+- 修复：解决链接跳转问题
+```
+
+**维护原则**：
+1. **定期更新**：保持内容时效性
+2. **版本控制**：记录所有更改
+3. **反馈收集**：收集用户反馈
+4. **持续改进**：不断优化内容
+
+## 学习总结：我的成长轨迹
+
+### 技能提升
+
+**我的技能发展**：
+1. **基础语法**：熟练掌握Markdown语法
+2. **高级功能**：掌握扩展功能应用
+3. **工具使用**：熟练使用各种工具
+4. **平台适配**：了解不同平台特性
+
+**技能应用场景**：
+- 技术博客写作
+- 项目文档编写
+- 学习笔记整理
+- 会议记录制作
+- 知识库建设
+
+### 经验总结
+
+**我的学习经验**：
+1. **循序渐进**：从基础到高级
+2. **实践为主**：多写多练
+3. **工具辅助**：善用各种工具
+4. **持续学习**：关注新功能
+
+**我的最佳实践**：
+1. **模板化**：建立文档模板
+2. **标准化**：统一格式规范
+3. **自动化**：使用工具提高效率
+4. **协作化**：支持团队协作
+
+### 未来规划
+
+**我的学习计划**：
+1. **深入学习**：掌握更多高级功能
+2. **工具探索**：尝试新的编辑工具
+3. **平台扩展**：探索更多发布平台
+4. **技能分享**：帮助他人学习
+
+**我的应用计划**：
+1. **个人博客**：建立技术博客
+2. **项目文档**：完善项目文档
+3. **知识库**：建设个人知识库
+4. **教学分享**：制作教学材料
+
+## 参考资料
+
+### 官方文档
+- [Markdown官方文档](https://daringfireball.net/projects/markdown/)
+- [GitHub Markdown指南](https://docs.github.com/en/github/writing-on-github)
+- [CommonMark规范](https://commonmark.org/)
+
+### 学习资源
+- [Markdown教程](https://www.markdowntutorial.com/)
+- [Markdown语法速查](https://www.markdownguide.org/cheat-sheet/)
+- [Markdown编辑器对比](https://www.markdownguide.org/tools/)
+
+### 实用工具
+- [Markdown预览工具](https://dillinger.io/)
+- [Markdown语法检查](https://github.com/DavidAnson/markdownlint)
+- [Markdown转换工具](https://pandoc.org/)
+
+## 结语
+
+Markdown学习之旅让我从一个文档编写小白成长为能够熟练使用各种工具的文档专家。
+
+从基础的语法学习到高级功能应用，从本地编辑到云端协作，每一个阶段都让我对文档编写有了更深的理解。
+
+虽然学习过程中遇到了很多困难，但每一次问题的解决都让我成长。现在，Markdown已经成为我日常工作和学习中不可或缺的工具。
+
+记住，好的文档不仅仅是内容的记录，更是知识的传承和分享。Markdown让我们能够更高效地编写、管理和分享知识。
+
+---
+
+> 💡 **实用小贴士**：学习Markdown最好的方法就是多写多练。从简单的笔记开始，逐步应用到复杂的技术文档。记住，实践是最好的老师！
+
+*"在文档编写的世界里，让技术废柴也能成为Markdown专家！"* 📝
+9:{"id":"markdown-usage-guide","title":"📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅","description":"从语法基础到高级技巧，从本地编辑到在线协作，分享我在Markdown学习过程中的实用总结和最佳实践，记录技术废柴在文档编写领域的成长轨迹。","date":"2021-05-02","readTime":"15分钟","tags":"$a","category":"学习笔记","slug":"markdown-usage-guide","featured":true,"author":"LJoson","status":"published","content":"$b","excerpt":"\r\n 📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅\r\n\r\n 学习动机：为什么选择Markdown？\r\n\r\n在开始学习Markdown之前，我一直在寻找一种简单高效的文档编写方式。\r\n\r\n我的需求：\r\n- 快速编写技术文档\r\n- 支持代码高亮\r\n- 易于版本控制\r\n- 跨平台兼容\r\n- 支持多媒体内容\r\n\r\n传统方式的痛点：\r\n- Word文档格式复杂，版本控制困难\r\n- HTML..."}
+d:["slug","markdown-usage-guide","d"]
+0:["build-1756572638459",[[["",{"children":["blog",{"children":[["slug","markdown-usage-guide","d"],{"children":["__PAGE__?{\"slug\":\"markdown-usage-guide\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","markdown-usage-guide","d"],{"children":["__PAGE__",{},[["$L1",["$","div",null,{"className":"min-h-screen bg-cyber-bg-900","children":["$","div",null,{"className":"relative overflow-hidden","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-br from-fail-red/5 via-fail-orange/3 to-fail-purple/5"}],["$","div",null,{"className":"relative z-10","children":[["$","div",null,{"className":"max-w-7xl mx-auto px-4 py-8","children":["$","div",null,{"className":"grid grid-cols-1 lg:grid-cols-4 gap-8","children":[["$","div",null,{"className":"lg:col-span-3 w-full","children":["$","$L2",null,{"post":{"id":"markdown-usage-guide","title":"📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅","description":"从语法基础到高级技巧，从本地编辑到在线协作，分享我在Markdown学习过程中的实用总结和最佳实践，记录技术废柴在文档编写领域的成长轨迹。","date":"2021-05-02","readTime":"15分钟","tags":["Markdown","文档编写","视频插入","目录结构","B站视频","技术文档","跨界探索"],"category":"学习笔记","slug":"markdown-usage-guide","featured":true,"author":"LJoson","status":"published","content":"$3","excerpt":"\r\n 📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅\r\n\r\n 学习动机：为什么选择Markdown？\r\n\r\n在开始学习Markdown之前，我一直在寻找一种简单高效的文档编写方式。\r\n\r\n我的需求：\r\n- 快速编写技术文档\r\n- 支持代码高亮\r\n- 易于版本控制\r\n- 跨平台兼容\r\n- 支持多媒体内容\r\n\r\n传统方式的痛点：\r\n- Word文档格式复杂，版本控制困难\r\n- HTML..."}}]}],["$","div",null,{"className":"lg:col-span-1","children":["$","div",null,{"className":"sticky top-24","children":["$","$L4",null,{}]}]}]]}]}],["$","div",null,{"className":"max-w-7xl mx-auto px-4 pb-16","children":["$","$L5",null,{"posts":[{"id":"linux-daily-notes","title":"Linux日常使用笔记","description":"Linux系统使用过程中的常用命令实录，多为Ubuntu下的命令，包括文件操作、终端分屏等实用技巧","date":"$D2021-05-15T00:00:00.000Z","readTime":"5分钟","tags":["Linux","Ubuntu","命令行","系统管理","终端工具"],"category":"学习笔记","slug":"linux-daily-notes","featured":false,"author":"LJoson","status":"published","content":"$6","excerpt":"\r\n Linux日常使用笔记\r\n\r\n 引言\r\n\r\nLinux系统使用的过程中常用命令实录，多为Ubuntu下的命令，注意文件夹与文件的区别，相对路径与绝对路径的区别。\r\n\r\n注意：本文内容不断更新中...\r\n\r\n Ubuntu 18.04 常用命令\r\n\r\n 查看文件大小常用命令\r\n\r\n 1. 使用stat命令查看\r\n\r\nstat命令一般用于查看文件的状态信息。stat命令的输出信息比ls命令的输出..."},{"id":"python-bug-solutions","title":"Python错误及解决方案集合","description":"学习Python过程中遇到的各种错误及解决方案，包括编码问题、导入错误、环境配置等常见问题","date":"$D2021-02-07T00:00:00.000Z","readTime":"5分钟","tags":["Python","错误解决","编码问题","环境配置","pip","anaconda"],"category":"学习笔记","slug":"python-bug-solutions","featured":false,"author":"LJoson","status":"published","content":"$7","excerpt":"\r\n Python错误及解决方案集合\r\n\r\n 引言\r\n\r\n学习Python总会不可避免的出现一些error，因此做一个解决error的集合，方便查阅。\r\n\r\n 编码相关错误\r\n\r\n 1. \"no encoding declared （没有编码声明）\"的解决方法\r\n\r\n问题抛出：\r\n\r\n\r\nSyntaxError: Non-ASCII character '\\xe8' in file C:/User..."},{"id":"git-usage-guide","title":"📚 Git完全指南：技术废柴的版本控制实战手册与踩坑经验","description":"从基础配置到高级技巧，从日常开发到团队协作，从踩坑经验到最佳实践，分享我在Git使用过程中的完整学习历程，记录技术废柴在开发工具领域的成长轨迹。","date":"2021-01-28","readTime":"35分钟","tags":["Git","版本控制","GitHub","分支管理","技术废柴","学习笔记","开发工具","踩坑经验","最佳实践","跨界探索"],"category":"学习笔记","slug":"git-usage-guide","featured":true,"author":"LJoson","status":"published","content":"$8","excerpt":"\r\n Git使用指南：技术废柴的版本控制实战手册\r\n\r\n> 从\"add-commit-push\"到\"rebase-merge-stash\"，我的Git技能进化史\r\n\r\n 我与Git的\"爱恨情仇\"\r\n\r\n 第一次\"翻车\"：提交了不该提交的文件\r\n\r\n还记得第一次使用Git时，我兴奋地执行了：\r\nbash\r\ngit add .\r\ngit commit -m \"Initial commit\"\r\ngit ..."}],"currentPost":"$9"}]}]]}]]}]}],null],null],null]},[null,["$","$Lc",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$d","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$Lc",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/3689037f0d92e8a5.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"zh-CN","className":"scroll-smooth","children":[["$","head",null,{"children":[["$","link",null,{"rel":"icon","href":"/favicon.svg"}],["$","link",null,{"rel":"apple-touch-icon","href":"/apple-touch-icon.svg"}],["$","link",null,{"rel":"manifest","href":"/manifest.json"}],["$","meta",null,{"name":"theme-color","content":"#ff6b6b"}],["$","meta",null,{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"LJoson 的废柴小窝\",\"description\":\"从技术废柴到跨界探索者的进化之路\",\"url\":\"https://ljoson.com\",\"author\":{\"@type\":\"Person\",\"name\":\"LJoson\",\"url\":\"https://ljoson.com\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"GlimmerLab\",\"url\":\"https://glimmerlab.com\"}}"}}]]}],["$","body",null,{"className":"bg-cyber-bg-900 text-white antialiased font-sans selection:bg-fail-red/20 selection:text-white","children":[["$","$Lf",null,{"children":["$","$L10",null,{"children":["$","$L11",null,{"children":["$","div",null,{"className":"min-h-screen flex flex-col relative","children":[["$","div",null,{"className":"fixed inset-0 pointer-events-none","children":[["$","div",null,{"className":"absolute inset-0 bg-gradient-to-br from-fail-red/5 via-transparent to-fail-purple/5"}],["$","div",null,{"className":"absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_50%_50%,rgba(255,107,107,0.1),transparent_50%)]"}]]}],["$","div",null,{"className":"relative z-10 flex flex-col min-h-screen","children":[["$","$L12",null,{}],["$","main",null,{"className":"flex-1 relative","children":["$","$Lc",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$13","errorStyles":[],"errorScripts":[],"template":["$","$Le",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":["$","$L14",null,{}],"notFoundStyles":[]}]}],["$","$L15",null,{}]]}]]}]}]}]}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"\n              // 性能监控\n              if (typeof window !== 'undefined') {\n                window.addEventListener('load', () => {\n                  if ('performance' in window) {\n                    const perfData = performance.getEntriesByType('navigation')[0];\n                    if (perfData) {\n                      console.log('页面加载性能:', {\n                        'DOM内容加载': perfData.domContentLoadedEventEnd - perfData.domContentLoadedEventStart + 'ms',\n                        '页面完全加载': perfData.loadEventEnd - perfData.loadEventStart + 'ms',\n                        '首次内容绘制': performance.getEntriesByName('first-contentful-paint')[0]?.startTime + 'ms'\n                      });\n                    }\n                  }\n                });\n              }\n            "}}]]}]]}]],null],[["$","$L16",null,{}],[],[]]],["$L17",null]]]]
+17:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅 - LJoson 的\"废柴\"小窝 | LJoson 的\"废柴\"小窝"}],["$","meta","3",{"name":"description","content":"从语法基础到高级技巧，从本地编辑到在线协作，分享我在Markdown学习过程中的实用总结和最佳实践，记录技术废柴在文档编写领域的成长轨迹。"}],["$","meta","4",{"name":"author","content":"LJoson"}],["$","meta","5",{"name":"keywords","content":"Markdown, 文档编写, 视频插入, 目录结构, B站视频, 技术文档, 跨界探索"}],["$","meta","6",{"name":"creator","content":"LJoson"}],["$","meta","7",{"name":"publisher","content":"LJoson"}],["$","meta","8",{"name":"robots","content":"index, follow"}],["$","meta","9",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","10",{"name":"theme-color","content":"#ff6b6b"}],["$","meta","11",{"name":"color-scheme","content":"dark"}],["$","meta","12",{"name":"viewport-fit","content":"cover"}],["$","link","13",{"rel":"canonical","href":"https://ljoson.com/"}],["$","meta","14",{"name":"format-detection","content":"telephone=no, address=no, email=no"}],["$","meta","15",{"name":"google-site-verification","content":"your-google-verification-code"}],["$","meta","16",{"property":"og:title","content":"📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅"}],["$","meta","17",{"property":"og:description","content":"从语法基础到高级技巧，从本地编辑到在线协作，分享我在Markdown学习过程中的实用总结和最佳实践，记录技术废柴在文档编写领域的成长轨迹。"}],["$","meta","18",{"property":"og:image","content":"https://ljoson.com/api/og?title=%F0%9F%93%9D%20Markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%EF%BC%9A%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E5%BA%9F%E6%9F%B4%E7%9A%84%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E8%B8%A9%E5%9D%91%E4%B9%8B%E6%97%85&description=%E4%BB%8E%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%88%B0%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7%EF%BC%8C%E4%BB%8E%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%BE%91%E5%88%B0%E5%9C%A8%E7%BA%BF%E5%8D%8F%E4%BD%9C%EF%BC%8C%E5%88%86%E4%BA%AB%E6%88%91%E5%9C%A8Markdown%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%AE%9E%E7%94%A8%E6%80%BB%E7%BB%93%E5%92%8C%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%8C%E8%AE%B0%E5%BD%95%E6%8A%80%E6%9C%AF%E5%BA%9F%E6%9F%B4%E5%9C%A8%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E9%A2%86%E5%9F%9F%E7%9A%84%E6%88%90%E9%95%BF%E8%BD%A8%E8%BF%B9%E3%80%82"}],["$","meta","19",{"property":"og:image:width","content":"1200"}],["$","meta","20",{"property":"og:image:height","content":"630"}],["$","meta","21",{"property":"og:image:alt","content":"📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅"}],["$","meta","22",{"property":"og:type","content":"article"}],["$","meta","23",{"property":"article:published_time","content":"2021-05-02"}],["$","meta","24",{"property":"article:author","content":"LJoson"}],["$","meta","25",{"property":"article:tag","content":"Markdown"}],["$","meta","26",{"property":"article:tag","content":"文档编写"}],["$","meta","27",{"property":"article:tag","content":"视频插入"}],["$","meta","28",{"property":"article:tag","content":"目录结构"}],["$","meta","29",{"property":"article:tag","content":"B站视频"}],["$","meta","30",{"property":"article:tag","content":"技术文档"}],["$","meta","31",{"property":"article:tag","content":"跨界探索"}],["$","meta","32",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","33",{"name":"twitter:title","content":"📝 Markdown使用指南：一个技术废柴的文档编写踩坑之旅"}],["$","meta","34",{"name":"twitter:description","content":"从语法基础到高级技巧，从本地编辑到在线协作，分享我在Markdown学习过程中的实用总结和最佳实践，记录技术废柴在文档编写领域的成长轨迹。"}],["$","meta","35",{"name":"twitter:image","content":"https://ljoson.com/api/og?title=%F0%9F%93%9D%20Markdown%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%EF%BC%9A%E4%B8%80%E4%B8%AA%E6%8A%80%E6%9C%AF%E5%BA%9F%E6%9F%B4%E7%9A%84%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E8%B8%A9%E5%9D%91%E4%B9%8B%E6%97%85&description=%E4%BB%8E%E8%AF%AD%E6%B3%95%E5%9F%BA%E7%A1%80%E5%88%B0%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7%EF%BC%8C%E4%BB%8E%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%BE%91%E5%88%B0%E5%9C%A8%E7%BA%BF%E5%8D%8F%E4%BD%9C%EF%BC%8C%E5%88%86%E4%BA%AB%E6%88%91%E5%9C%A8Markdown%E5%AD%A6%E4%B9%A0%E8%BF%87%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%AE%9E%E7%94%A8%E6%80%BB%E7%BB%93%E5%92%8C%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%EF%BC%8C%E8%AE%B0%E5%BD%95%E6%8A%80%E6%9C%AF%E5%BA%9F%E6%9F%B4%E5%9C%A8%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E9%A2%86%E5%9F%9F%E7%9A%84%E6%88%90%E9%95%BF%E8%BD%A8%E8%BF%B9%E3%80%82"}]]
+1:null
